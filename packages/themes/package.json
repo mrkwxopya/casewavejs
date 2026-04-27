@@ -1,48 +1,49 @@
-{
-  "name": "@casewave/themes",
-  "version": "0.1.0",
-  "description": "Theme presets for CaseWave",
-  "author": "mrkwxopya",
-  "license": "MIT",
-  "type": "module",
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
-    }
-  },
-  "peerDependencies": {
-    "@casewave/react": "0.1.0"
-  },
-  "dependencies": {
-    "@casewave/react": "0.1.0"
-  },
-  "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts",
-    "typecheck": "tsc --noEmit",
-    "clean": "node ./scripts/clean.cjs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mrkwxopya/casewave.git",
-    "directory": "packages/themes"
-  },
-  "keywords": [
-    "casewave",
-    "react",
-    "graph",
-    "node-link",
-    "diagram",
-    "knowledge-graph",
-    "typescript"
-  ],
-  "files": [
-    "dist",
-    "README.md"
-  ],
-  "sideEffects": false
+﻿{
+    "name":  "@casewave/themes",
+    "version":  "0.1.1",
+    "description":  "Theme presets for CaseWave",
+    "author":  "mrkwxopya",
+    "license":  "MIT",
+    "type":  "module",
+    "main":  "./dist/index.cjs",
+    "module":  "./dist/index.js",
+    "types":  "./dist/index.d.ts",
+    "exports":  {
+                    ".":  {
+                              "types":  "./dist/index.d.ts",
+                              "import":  "./dist/index.js",
+                              "require":  "./dist/index.cjs"
+                          }
+                },
+    "peerDependencies":  {
+                             "@casewave/react":  "0.1.0"
+                         },
+    "dependencies":  {
+                         "@casewave/react":  "0.1.0"
+                     },
+    "scripts":  {
+                    "build":  "tsup src/index.ts --format esm,cjs --dts",
+                    "typecheck":  "tsc --noEmit",
+                    "clean":  "node ./scripts/clean.cjs"
+                },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/mrkwxopya/casewave.git",
+                       "directory":  "packages/themes"
+                   },
+    "keywords":  [
+                     "casewave",
+                     "react",
+                     "graph",
+                     "node-link",
+                     "diagram",
+                     "knowledge-graph",
+                     "typescript"
+                 ],
+    "files":  [
+                  "dist",
+                  "README.md"
+              ],
+    "sideEffects":  false,
+    "homepage":  "[https://mrkwxopya.github.io/casewave/packages/themes](https://mrkwxopya.github.io/casewave/packages/themes)"
 }
