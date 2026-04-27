@@ -1,6 +1,6 @@
 {
     "name": "@casewave/layout",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Layout engine adapters for CaseWave",
     "author": "mrkwxopya",
     "license": "MIT",
