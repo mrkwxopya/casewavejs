@@ -33,3 +33,7 @@ import { createBoard } from '@casewave/core'
 - Nested Nodes
 - HTML Nodes
 - Workflow Editor
+
+![npm](https://img.shields.io/npm/v/@casewave/core)
+![license](https://img.shields.io/npm/l/@casewave/core)
+![docs](https://img.shields.io/badge/docs-online-blue)
