@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "suspect_1",
+      "type": "person",
+      "position": { "x": 100, "y": 100 }
+    },
+    {
+      "id": "evidence_1",
+      "type": "evidence",
+      "position": { "x": 500, "y": 180 }
+    },
+    {
+      "id": "location_1",
+      "type": "location",
+      "position": { "x": 320, "y": 360 }
+    }
+  ],
+  "edges": [
+    {
+      "id": "link_1",
+      "type": "relation",
+      "source": {
+        "kind":"node",
+        "nodeId":"suspect_1"
+      },
+      "target": {
+        "kind":"node",
+        "nodeId":"evidence_1"
+      },
+      "direction":"directed"
+    },
+    {
+      "id":"link_2",
+      "type":"relation",
+      "source":{
+        "kind":"node",
+        "nodeId":"suspect_1"
+      },
+      "target":{
+        "kind":"node",
+        "nodeId":"location_1"
+      },
+      "direction":"directed"
+    }
+  ]
+}
