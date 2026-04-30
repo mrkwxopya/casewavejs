@@ -20,22 +20,6 @@ npm install @casewavejs/core
 
 https://mrkwxopya.github.io/casewave/
 
-## Example
-
-```ts
-import { createBoard } from '@casewavejs/core'
-```
-
-## Roadmap
-
-- Investigation Graph Engine
-- Evidence Links
-- Nested Nodes
-- HTML Nodes
-- Workflow Editor
-
 ![npm](https://img.shields.io/npm/v/@casewavejs/core)
 ![license](https://img.shields.io/npm/l/@casewavejs/core)
 ![docs](https://img.shields.io/badge/docs-online-blue)
-
-
