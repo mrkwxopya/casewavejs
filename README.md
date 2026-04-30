@@ -1,4 +1,4 @@
-﻿# CaseWave
+﻿# CaseWavejs
 
 Production-grade TypeScript toolkit for investigation boards, collaborative graph workflows, and interactive cases.
 
@@ -18,7 +18,7 @@ npm install @casewavejs/core
 
 ## Documentation
 
-https://mrkwxopya.github.io/casewave/
+https://mrkwxopya.github.io/casewavejs/
 
 ## Example
 
