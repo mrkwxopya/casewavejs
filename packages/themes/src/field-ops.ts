@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveFieldOpsTheme: CaseWaveTheme = {
 name:"field-ops",canvasBackground:"#0d1511",gridColor:"rgba(132,204,22,.05)",
 nodeBackground:"#17241c",nodeSelectedBackground:"#4d7c0f",
@@ -9,3 +9,4 @@ handleBackground:"#84cc16",handleBorder:"2px solid #0d1511",
 panelBackground:"#141d17",panelBorder:"1px solid rgba(132,204,22,.12)",panelText:"#ecfccb",
 accent:"#84cc16",danger:"#ef4444",warning:"#eab308"
 };
+

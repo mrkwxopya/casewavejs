@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveThreatIntelTheme: CaseWaveTheme = {
   name: "threat-intel",
@@ -30,3 +30,4 @@ export const caseWaveThreatIntelTheme: CaseWaveTheme = {
   danger: "#ef4444",
   warning: "#f59e0b"
 };
+

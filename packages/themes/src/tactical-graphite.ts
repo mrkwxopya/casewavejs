@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveTacticalGraphiteTheme: CaseWaveTheme = {
 name:"tactical-graphite",canvasBackground:"#202226",gridColor:"rgba(156,163,175,.05)",
 nodeBackground:"#2c2f35",nodeSelectedBackground:"#4b5563",
@@ -9,3 +9,4 @@ handleBackground:"#d1d5db",handleBorder:"2px solid #202226",
 panelBackground:"#272a30",panelBorder:"1px solid rgba(209,213,219,.10)",panelText:"#f9fafb",
 accent:"#d1d5db",danger:"#ef4444",warning:"#f59e0b"
 };
+

@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveIntelTerminalTheme: CaseWaveTheme = {
 name:"intel-terminal",canvasBackground:"#031107",gridColor:"rgba(34,197,94,.05)",
 nodeBackground:"#0d1d12",nodeSelectedBackground:"#14532d",
@@ -8,3 +8,4 @@ edgeStroke:"rgba(34,197,94,.40)",edgeSelectedStroke:"#86efac",edgePreviewStroke:
 handleBackground:"#22c55e",handleBorder:"2px solid #031107",panelBackground:"#08140c",panelBorder:"1px solid rgba(34,197,94,.12)",panelText:"#dcfce7",
 accent:"#22c55e",danger:"#ef4444",warning:"#eab308"
 };
+

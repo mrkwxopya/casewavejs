@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveStrikeTeamTheme: CaseWaveTheme = {
 name:"strike-team",canvasBackground:"#101511",gridColor:"rgba(74,222,128,.05)",
 nodeBackground:"#18211a",nodeSelectedBackground:"#166534",
@@ -8,3 +8,4 @@ edgeStroke:"rgba(74,222,128,.40)",edgeSelectedStroke:"#86efac",edgePreviewStroke
 handleBackground:"#4ade80",handleBorder:"2px solid #101511",panelBackground:"#141c15",panelBorder:"1px solid rgba(74,222,128,.12)",panelText:"#dcfce7",
 accent:"#4ade80",danger:"#ef4444",warning:"#eab308"
 };
+

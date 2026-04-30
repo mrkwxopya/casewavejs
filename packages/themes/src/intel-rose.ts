@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveIntelRoseTheme: CaseWaveTheme = {
 name:"intel-rose",canvasBackground:"#fff1f6",gridColor:"rgba(236,72,153,.05)",
 nodeBackground:"#ffffff",nodeSelectedBackground:"#f9a8d4",
@@ -9,3 +9,4 @@ handleBackground:"#ec4899",handleBorder:"2px solid #ffffff",
 panelBackground:"#fff7fb",panelBorder:"1px solid rgba(236,72,153,.10)",panelText:"#500724",
 accent:"#ec4899",danger:"#dc2626",warning:"#d97706"
 };
+

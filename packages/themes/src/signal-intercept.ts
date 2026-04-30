@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveSignalInterceptTheme: CaseWaveTheme = {
   name: "signal-intercept",
@@ -12,3 +12,4 @@ export const caseWaveSignalInterceptTheme: CaseWaveTheme = {
   panelBackground:"#0d1823",panelBorder:"1px solid rgba(34,211,238,.12)",panelText:"#ecfeff",
   accent:"#22d3ee",danger:"#ef4444",warning:"#f59e0b"
 };
+

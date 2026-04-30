@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveWarboardTheme: CaseWaveTheme = {
   name: "warboard",
@@ -12,3 +12,4 @@ export const caseWaveWarboardTheme: CaseWaveTheme = {
   panelBackground:"#1c140d",panelBorder:"1px solid rgba(245,158,11,.12)",panelText:"#fef3c7",
   accent:"#f59e0b",danger:"#dc2626",warning:"#facc15"
 };
+

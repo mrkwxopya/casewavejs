@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveEvidenceVaultTheme: CaseWaveTheme = {
   name: "evidence-vault",
@@ -30,3 +30,4 @@ export const caseWaveEvidenceVaultTheme: CaseWaveTheme = {
   danger: "#dc2626",
   warning: "#facc15"
 };
+

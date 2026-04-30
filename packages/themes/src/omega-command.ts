@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveOmegaCommandTheme: CaseWaveTheme = {
 name:"omega-command",canvasBackground:"#040912",gridColor:"rgba(96,165,250,.05)",
 nodeBackground:"#111d2f",nodeSelectedBackground:"#1e40af",
@@ -9,3 +9,4 @@ handleBackground:"#60a5fa",handleBorder:"2px solid #040912",
 panelBackground:"#0d1522",panelBorder:"1px solid rgba(96,165,250,.10)",panelText:"#dbeafe",
 accent:"#60a5fa",danger:"#ef4444",warning:"#f59e0b"
 };
+

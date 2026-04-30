@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveInterceptGridTheme: CaseWaveTheme = {
 name:"intercept-grid",
 canvasBackground:"#08131d",gridColor:"rgba(96,165,250,.06)",
@@ -10,3 +10,4 @@ handleBackground:"#60a5fa",handleBorder:"2px solid #08131d",
 panelBackground:"#0b1a2a",panelBorder:"1px solid rgba(96,165,250,.12)",panelText:"#eff6ff",
 accent:"#60a5fa",danger:"#ef4444",warning:"#f59e0b"
 };
+

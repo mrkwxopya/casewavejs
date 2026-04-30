@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveAccessibilityTheme: CaseWaveTheme = {
   name: "accessibility",
@@ -30,3 +30,4 @@ export const caseWaveAccessibilityTheme: CaseWaveTheme = {
   danger: "#b91c1c",
   warning: "#a16207"
 };
+

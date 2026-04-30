@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveIntelligenceMapTheme: CaseWaveTheme = {
   name: "intelligence-map",
@@ -12,3 +12,4 @@ export const caseWaveIntelligenceMapTheme: CaseWaveTheme = {
   panelBackground:"#102132",panelBorder:"1px solid rgba(125,211,252,.12)",panelText:"#e0f2fe",
   accent:"#7dd3fc",danger:"#ef4444",warning:"#f59e0b"
 };
+

@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveArchiveStoneTheme: CaseWaveTheme = {
 name:"archive-stone",canvasBackground:"#d8d3c5",gridColor:"rgba(87,83,78,.05)",
 nodeBackground:"#fafaf9",nodeSelectedBackground:"#e7e5e4",
@@ -9,3 +9,4 @@ handleBackground:"#78716c",handleBorder:"2px solid #fafaf9",
 panelBackground:"#f5f5f4",panelBorder:"1px solid rgba(87,83,78,.10)",panelText:"#292524",
 accent:"#78716c",danger:"#b91c1c",warning:"#d97706"
 };
+

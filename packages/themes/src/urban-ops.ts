@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveUrbanOpsTheme: CaseWaveTheme = {
 name:"urban-ops",canvasBackground:"#111827",gridColor:"rgba(156,163,175,.05)",
 nodeBackground:"#1f2937",nodeSelectedBackground:"#374151",
@@ -9,3 +9,4 @@ handleBackground:"#9ca3af",handleBorder:"2px solid #111827",
 panelBackground:"#1f2937",panelBorder:"1px solid rgba(156,163,175,.12)",panelText:"#f9fafb",
 accent:"#9ca3af",danger:"#ef4444",warning:"#f59e0b"
 };
+

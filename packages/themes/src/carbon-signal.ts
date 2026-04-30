@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveCarbonSignalTheme: CaseWaveTheme = {
 name:"carbon-signal",canvasBackground:"#111315",gridColor:"rgba(163,163,163,.05)",
 nodeBackground:"#1f2937",nodeSelectedBackground:"#374151",
@@ -9,3 +9,4 @@ handleBackground:"#d1d5db",handleBorder:"2px solid #111315",
 panelBackground:"#1b2028",panelBorder:"1px solid rgba(209,213,219,.10)",panelText:"#f9fafb",
 accent:"#d1d5db",danger:"#ef4444",warning:"#f59e0b"
 };
+

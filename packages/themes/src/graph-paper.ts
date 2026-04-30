@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveGraphPaperTheme: CaseWaveTheme = {
   name: "graph-paper",
@@ -30,3 +30,4 @@ export const caseWaveGraphPaperTheme: CaseWaveTheme = {
   danger: "#dc2626",
   warning: "#d97706"
 };
+

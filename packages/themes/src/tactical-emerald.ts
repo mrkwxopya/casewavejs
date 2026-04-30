@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveTacticalEmeraldTheme: CaseWaveTheme = {
 name:"tactical-emerald",canvasBackground:"#04110a",gridColor:"rgba(52,211,153,.05)",
 nodeBackground:"#0d1f17",nodeSelectedBackground:"#047857",
@@ -9,3 +9,4 @@ handleBackground:"#34d399",handleBorder:"2px solid #04110a",
 panelBackground:"#0a1812",panelBorder:"1px solid rgba(52,211,153,.10)",panelText:"#d1fae5",
 accent:"#34d399",danger:"#ef4444",warning:"#eab308"
 };
+

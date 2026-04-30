@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveNeuralCrimeTheme: CaseWaveTheme = {
 name:"neural-crime",canvasBackground:"#090014",gridColor:"rgba(168,85,247,.05)",
 nodeBackground:"#160022",nodeSelectedBackground:"#6d28d9",
@@ -9,3 +9,4 @@ handleBackground:"#a855f7",handleBorder:"2px solid #090014",
 panelBackground:"#120018",panelBorder:"1px solid rgba(168,85,247,.10)",panelText:"#f5f3ff",
 accent:"#a855f7",danger:"#ef4444",warning:"#f59e0b"
 };
+

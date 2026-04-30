@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveCyberNeonTheme: CaseWaveTheme = {
 name:"cyber-neon",canvasBackground:"#090015",gridColor:"rgba(34,211,238,.05)",
 nodeBackground:"#160028",nodeSelectedBackground:"#0891b2",
@@ -9,3 +9,4 @@ handleBackground:"#22d3ee",handleBorder:"2px solid #090015",
 panelBackground:"#12001d",panelBorder:"1px solid rgba(34,211,238,.10)",panelText:"#ecfeff",
 accent:"#22d3ee",danger:"#ef4444",warning:"#f59e0b"
 };
+

@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveNeoBrutalistTheme: CaseWaveTheme = {
   name: "neo-brutalist",
@@ -30,3 +30,4 @@ export const caseWaveNeoBrutalistTheme: CaseWaveTheme = {
   danger: "#dc2626",
   warning: "#f59e0b"
 };
+

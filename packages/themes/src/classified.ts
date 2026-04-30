@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveClassifiedTheme: CaseWaveTheme = {
   name: "classified",
@@ -30,3 +30,4 @@ export const caseWaveClassifiedTheme: CaseWaveTheme = {
   danger: "#dc2626",
   warning: "#f59e0b"
 };
+

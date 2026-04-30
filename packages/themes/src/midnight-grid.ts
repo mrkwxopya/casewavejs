@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveMidnightGridTheme: CaseWaveTheme = {
 name:"midnight-grid",canvasBackground:"#050816",gridColor:"rgba(99,102,241,.05)",
 nodeBackground:"#141a33",nodeSelectedBackground:"#4338ca",
@@ -9,3 +9,4 @@ handleBackground:"#818cf8",handleBorder:"2px solid #050816",
 panelBackground:"#0f1430",panelBorder:"1px solid rgba(129,140,248,.10)",panelText:"#e0e7ff",
 accent:"#818cf8",danger:"#ef4444",warning:"#f59e0b"
 };
+

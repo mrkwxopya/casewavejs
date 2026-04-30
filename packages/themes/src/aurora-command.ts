@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveAuroraCommandTheme: CaseWaveTheme = {
 name:"aurora-command",canvasBackground:"#e9fff8",gridColor:"rgba(20,184,166,.05)",
 nodeBackground:"#ffffff",nodeSelectedBackground:"#99f6e4",
@@ -9,3 +9,4 @@ handleBackground:"#14b8a6",handleBorder:"2px solid #ffffff",
 panelBackground:"#f0fdfa",panelBorder:"1px solid rgba(20,184,166,.10)",panelText:"#134e4a",
 accent:"#14b8a6",danger:"#dc2626",warning:"#d97706"
 };
+

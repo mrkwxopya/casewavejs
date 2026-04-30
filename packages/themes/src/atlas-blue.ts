@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveAtlasBlueTheme: CaseWaveTheme = {
 name:"atlas-blue",canvasBackground:"#0b1d33",gridColor:"rgba(147,197,253,.05)",
 nodeBackground:"#14304e",nodeSelectedBackground:"#2563eb",
@@ -9,3 +9,4 @@ handleBackground:"#93c5fd",handleBorder:"2px solid #0b1d33",
 panelBackground:"#112844",panelBorder:"1px solid rgba(147,197,253,.10)",panelText:"#eff6ff",
 accent:"#93c5fd",danger:"#ef4444",warning:"#f59e0b"
 };
+

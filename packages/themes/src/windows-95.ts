@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveWindows95Theme: CaseWaveTheme = {
   name: "windows-95",
@@ -30,3 +30,4 @@ export const caseWaveWindows95Theme: CaseWaveTheme = {
   danger: "#800000",
   warning: "#808000"
 };
+

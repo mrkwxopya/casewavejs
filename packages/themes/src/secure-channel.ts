@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveSecureChannelTheme: CaseWaveTheme = {
 name:"secure-channel",canvasBackground:"#071019",gridColor:"rgba(45,212,191,.05)",
 nodeBackground:"#102129",nodeSelectedBackground:"#0f766e",
@@ -8,3 +8,4 @@ edgeStroke:"rgba(45,212,191,.40)",edgeSelectedStroke:"#99f6e4",edgePreviewStroke
 handleBackground:"#2dd4bf",handleBorder:"2px solid #071019",panelBackground:"#0d1a20",panelBorder:"1px solid rgba(45,212,191,.12)",panelText:"#ccfbf1",
 accent:"#2dd4bf",danger:"#ef4444",warning:"#f59e0b"
 };
+

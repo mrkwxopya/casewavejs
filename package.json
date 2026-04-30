@@ -1,8 +1,8 @@
 {
-    "name": "casewave-monorepo",
+    "name": "@casewavejs/casewavejs",
     "private": true,
     "version": "0.1.0",
-    "description": "Modular Node-Link Graph Engine for React",
+    "description": "Production-grade graph engine and React toolkit for investigation boards, case maps, and interactive relationship networks.",
     "author": "mrkwxopya",
     "license": "MIT",
     "type": "module",
@@ -72,7 +72,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mrkwxopya/casewave.git"
+        "url": "git+https://github.com/mrkwxopya/casewavejs.git"
     },
     "keywords": [
         "casewave",
@@ -82,5 +82,9 @@
         "diagram",
         "knowledge-graph",
         "typescript"
-    ]
+    ],
+    "homepage": "https://github.com/mrkwxopya/casewavejs#readme",
+    "bugs": {
+        "url": "https://github.com/mrkwxopya/casewavejs/issues"
+    }
 }

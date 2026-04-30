@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveTacticalBlackoutTheme: CaseWaveTheme = {
 name:"tactical-blackout",canvasBackground:"#060606",gridColor:"rgba(115,115,115,.05)",
 nodeBackground:"#151515",nodeSelectedBackground:"#262626",
@@ -9,3 +9,4 @@ handleBackground:"#fafafa",handleBorder:"2px solid #060606",
 panelBackground:"#101010",panelBorder:"1px solid rgba(212,212,216,.10)",panelText:"#fafafa",
 accent:"#d4d4d8",danger:"#ef4444",warning:"#f59e0b"
 };
+

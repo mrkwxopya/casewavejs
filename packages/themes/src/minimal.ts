@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveMinimalTheme: CaseWaveTheme = {
   name: "minimal",
@@ -30,3 +30,4 @@ export const caseWaveMinimalTheme: CaseWaveTheme = {
   danger: "#dc2626",
   warning: "#d97706"
 };
+

@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveSketchEdgesTheme: CaseWaveTheme = {
   name: "sketch-edges",
@@ -30,3 +30,4 @@ export const caseWaveSketchEdgesTheme: CaseWaveTheme = {
   danger: "#b91c1c",
   warning: "#d97706"
 };
+

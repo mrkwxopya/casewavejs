@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveOpsVoltTheme: CaseWaveTheme = {
 name:"ops-volt",canvasBackground:"#061107",gridColor:"rgba(163,230,53,.05)",
 nodeBackground:"#102015",nodeSelectedBackground:"#4d7c0f",
@@ -9,3 +9,4 @@ handleBackground:"#a3e635",handleBorder:"2px solid #061107",
 panelBackground:"#0c180f",panelBorder:"1px solid rgba(163,230,53,.10)",panelText:"#ecfccb",
 accent:"#a3e635",danger:"#ef4444",warning:"#eab308"
 };
+

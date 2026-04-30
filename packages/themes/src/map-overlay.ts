@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveMapOverlayTheme: CaseWaveTheme = {
 name:"map-overlay",canvasBackground:"#eef4e5",gridColor:"rgba(34,84,61,.05)",
 nodeBackground:"#ffffff",nodeSelectedBackground:"#d9f99d",
@@ -9,3 +9,4 @@ handleBackground:"#4d7c0f",handleBorder:"2px solid #ffffff",
 panelBackground:"#f8fff2",panelBorder:"1px solid rgba(34,84,61,.12)",panelText:"#1f2937",
 accent:"#4d7c0f",danger:"#dc2626",warning:"#ca8a04"
 };
+

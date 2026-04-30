@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveDarkGridMatrixTheme: CaseWaveTheme = {
   name: "dark-grid-matrix",
@@ -30,3 +30,4 @@ export const caseWaveDarkGridMatrixTheme: CaseWaveTheme = {
   danger: "#ef4444",
   warning: "#eab308"
 };
+

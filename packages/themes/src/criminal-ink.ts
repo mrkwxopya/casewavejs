@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveCriminalInkTheme: CaseWaveTheme = {
 name:"criminal-ink",canvasBackground:"#120c09",gridColor:"rgba(251,146,60,.05)",
 nodeBackground:"#241710",nodeSelectedBackground:"#9a3412",
@@ -9,3 +9,4 @@ handleBackground:"#fb923c",handleBorder:"2px solid #120c09",
 panelBackground:"#1c130e",panelBorder:"1px solid rgba(251,146,60,.10)",panelText:"#ffedd5",
 accent:"#fb923c",danger:"#dc2626",warning:"#facc15"
 };
+

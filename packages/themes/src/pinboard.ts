@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWavePinboardTheme: CaseWaveTheme = {
   name: "pinboard",
@@ -30,3 +30,4 @@ export const caseWavePinboardTheme: CaseWaveTheme = {
   danger: "#991b1b",
   warning: "#d97706"
 };
+

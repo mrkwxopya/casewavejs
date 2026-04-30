@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveCipherStormTheme: CaseWaveTheme = {
 name:"cipher-storm",canvasBackground:"#0b1320",gridColor:"rgba(129,140,248,.05)",
 nodeBackground:"#172236",nodeSelectedBackground:"#4338ca",
@@ -9,3 +9,4 @@ handleBackground:"#818cf8",handleBorder:"2px solid #0b1320",
 panelBackground:"#111a2b",panelBorder:"1px solid rgba(129,140,248,.10)",panelText:"#e0e7ff",
 accent:"#818cf8",danger:"#ef4444",warning:"#f59e0b"
 };
+

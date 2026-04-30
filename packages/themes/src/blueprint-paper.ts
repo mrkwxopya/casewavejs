@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveBlueprintPaperTheme: CaseWaveTheme = {
   name: "blueprint-paper",
@@ -30,3 +30,4 @@ export const caseWaveBlueprintPaperTheme: CaseWaveTheme = {
   danger: "#ef4444",
   warning: "#fde68a"
 };
+

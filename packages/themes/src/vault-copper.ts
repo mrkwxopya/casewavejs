@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveVaultCopperTheme: CaseWaveTheme = {
 name:"vault-copper",canvasBackground:"#20140f",gridColor:"rgba(251,146,60,.05)",
 nodeBackground:"#311d14",nodeSelectedBackground:"#9a3412",
@@ -9,3 +9,4 @@ handleBackground:"#fb923c",handleBorder:"2px solid #20140f",
 panelBackground:"#281912",panelBorder:"1px solid rgba(251,146,60,.12)",panelText:"#ffedd5",
 accent:"#fb923c",danger:"#dc2626",warning:"#facc15"
 };
+

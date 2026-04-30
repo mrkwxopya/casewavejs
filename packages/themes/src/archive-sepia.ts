@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveArchiveSepiaTheme: CaseWaveTheme = {
 name:"archive-sepia",canvasBackground:"#dbc8a8",gridColor:"rgba(120,53,15,.05)",
 nodeBackground:"#fff6df",nodeSelectedBackground:"#fed7aa",
@@ -9,3 +9,4 @@ handleBackground:"#9a3412",handleBorder:"2px solid #fff6df",
 panelBackground:"#f4e2c2",panelBorder:"1px solid rgba(120,53,15,.10)",panelText:"#431407",
 accent:"#9a3412",danger:"#b91c1c",warning:"#d97706"
 };
+

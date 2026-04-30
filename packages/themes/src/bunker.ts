@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveBunkerTheme: CaseWaveTheme = {
 name:"bunker",
 canvasBackground:"#14120d",gridColor:"rgba(245,158,11,.05)",
@@ -10,3 +10,4 @@ handleBackground:"#f59e0b",handleBorder:"2px solid #14120d",
 panelBackground:"#1b170f",panelBorder:"1px solid rgba(245,158,11,.12)",panelText:"#fef3c7",
 accent:"#f59e0b",danger:"#dc2626",warning:"#facc15"
 };
+

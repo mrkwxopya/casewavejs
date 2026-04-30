@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveVaultIvoryTheme: CaseWaveTheme = {
 name:"vault-ivory",canvasBackground:"#f4efdf",gridColor:"rgba(82,52,28,.05)",
 nodeBackground:"#fffdf5",nodeSelectedBackground:"#fef3c7",
@@ -9,3 +9,4 @@ handleBackground:"#92400e",handleBorder:"2px solid #fffdf5",
 panelBackground:"#faf5e4",panelBorder:"1px solid rgba(82,52,28,.10)",panelText:"#2b1d13",
 accent:"#92400e",danger:"#b91c1c",warning:"#d97706"
 };
+

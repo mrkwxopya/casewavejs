@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveDetectiveNoir2Theme: CaseWaveTheme = {
   name: "detective-noir-2",
@@ -12,3 +12,4 @@ export const caseWaveDetectiveNoir2Theme: CaseWaveTheme = {
   panelBackground:"#18181b",panelBorder:"1px solid rgba(255,255,255,.12)",panelText:"#fafafa",
   accent:"#d4d4d8",danger:"#ef4444",warning:"#f59e0b"
 };
+

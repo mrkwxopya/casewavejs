@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveWarRoomTheme: CaseWaveTheme = {
   name: "war-room",
@@ -30,3 +30,4 @@ export const caseWaveWarRoomTheme: CaseWaveTheme = {
   danger: "#ef4444",
   warning: "#facc15"
 };
+

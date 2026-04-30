@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveArcticIntelTheme: CaseWaveTheme = {
 name:"arctic-intel",canvasBackground:"#eefaff",gridColor:"rgba(56,189,248,.05)",
 nodeBackground:"#ffffff",nodeSelectedBackground:"#bae6fd",
@@ -9,3 +9,4 @@ handleBackground:"#38bdf8",handleBorder:"2px solid #ffffff",
 panelBackground:"#f0f9ff",panelBorder:"1px solid rgba(56,189,248,.10)",panelText:"#082f49",
 accent:"#38bdf8",danger:"#dc2626",warning:"#d97706"
 };
+

@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveCommandBlackTheme: CaseWaveTheme = {
 name:"command-black",canvasBackground:"#050505",gridColor:"rgba(163,163,163,.05)",
 nodeBackground:"#171717",nodeSelectedBackground:"#2a2a2a",
@@ -9,3 +9,4 @@ handleBackground:"#d4d4d8",handleBorder:"2px solid #050505",
 panelBackground:"#111111",panelBorder:"1px solid rgba(212,212,216,.12)",panelText:"#fafafa",
 accent:"#d4d4d8",danger:"#ef4444",warning:"#f59e0b"
 };
+

@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveEvidenceFolderTextureTheme: CaseWaveTheme = {
   name: "evidence-folder-texture",
@@ -30,3 +30,4 @@ export const caseWaveEvidenceFolderTextureTheme: CaseWaveTheme = {
   danger: "#b91c1c",
   warning: "#d97706"
 };
+

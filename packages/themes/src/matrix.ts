@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveMatrixTheme: CaseWaveTheme = {
   name: "matrix",
@@ -30,3 +30,4 @@ export const caseWaveMatrixTheme: CaseWaveTheme = {
   danger: "#ef4444",
   warning: "#eab308"
 };
+

@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveThreatMatrixTheme: CaseWaveTheme = {
 name:"threat-matrix",canvasBackground:"#050b08",gridColor:"rgba(34,197,94,.05)",
 nodeBackground:"#0f1f16",nodeSelectedBackground:"#14532d",
@@ -9,3 +9,4 @@ handleBackground:"#22c55e",handleBorder:"2px solid #050b08",
 panelBackground:"#0b1510",panelBorder:"1px solid rgba(34,197,94,.12)",panelText:"#dcfce7",
 accent:"#22c55e",danger:"#ef4444",warning:"#eab308"
 };
+

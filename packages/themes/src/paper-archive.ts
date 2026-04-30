@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWavePaperArchiveTheme: CaseWaveTheme = {
   name: "paper-archive",
@@ -30,3 +30,4 @@ export const caseWavePaperArchiveTheme: CaseWaveTheme = {
   danger: "#b91c1c",
   warning: "#d97706"
 };
+

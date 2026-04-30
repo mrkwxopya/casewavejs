@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWavePlatinumCommandTheme: CaseWaveTheme = {
 name:"platinum-command",canvasBackground:"#eef2f5",gridColor:"rgba(148,163,184,.05)",
 nodeBackground:"#ffffff",nodeSelectedBackground:"#e2e8f0",
@@ -9,3 +9,4 @@ handleBackground:"#94a3b8",handleBorder:"2px solid #ffffff",
 panelBackground:"#ffffff",panelBorder:"1px solid rgba(148,163,184,.10)",panelText:"#0f172a",
 accent:"#94a3b8",danger:"#dc2626",warning:"#d97706"
 };
+

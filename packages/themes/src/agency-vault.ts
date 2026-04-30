@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveAgencyVaultTheme: CaseWaveTheme = {
 name:"agency-vault",
 canvasBackground:"#191919",gridColor:"rgba(163,163,163,.05)",
@@ -10,3 +10,4 @@ handleBackground:"#d4d4d4",handleBorder:"2px solid #191919",
 panelBackground:"#202020",panelBorder:"1px solid rgba(212,212,216,.12)",panelText:"#fafafa",
 accent:"#d4d4d4",danger:"#ef4444",warning:"#f59e0b"
 };
+

@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveShadowDossierTheme: CaseWaveTheme = {
 name:"shadow-dossier",canvasBackground:"#0a0a0d",gridColor:"rgba(163,163,163,.05)",
 nodeBackground:"#18181b",nodeSelectedBackground:"#27272a",
@@ -9,3 +9,4 @@ handleBackground:"#d4d4d8",handleBorder:"2px solid #0a0a0d",
 panelBackground:"#131317",panelBorder:"1px solid rgba(212,212,216,.10)",panelText:"#fafafa",
 accent:"#d4d4d8",danger:"#ef4444",warning:"#f59e0b"
 };
+

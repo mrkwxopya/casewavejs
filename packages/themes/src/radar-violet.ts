@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveRadarVioletTheme: CaseWaveTheme = {
 name:"radar-violet",canvasBackground:"#0f0820",gridColor:"rgba(168,85,247,.05)",
 nodeBackground:"#1c1133",nodeSelectedBackground:"#6d28d9",
@@ -9,3 +9,4 @@ handleBackground:"#a855f7",handleBorder:"2px solid #0f0820",
 panelBackground:"#170d28",panelBorder:"1px solid rgba(168,85,247,.10)",panelText:"#f5f3ff",
 accent:"#a855f7",danger:"#ef4444",warning:"#f59e0b"
 };
+

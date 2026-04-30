@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveInfraredThreatTheme: CaseWaveTheme = {
 name:"infrared-threat",canvasBackground:"#170707",gridColor:"rgba(248,113,113,.05)",
 nodeBackground:"#281111",nodeSelectedBackground:"#991b1b",
@@ -9,3 +9,4 @@ handleBackground:"#ef4444",handleBorder:"2px solid #170707",
 panelBackground:"#200d0d",panelBorder:"1px solid rgba(248,113,113,.10)",panelText:"#fee2e2",
 accent:"#ef4444",danger:"#b91c1c",warning:"#f59e0b"
 };
+

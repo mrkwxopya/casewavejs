@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveEmeraldDirectiveTheme: CaseWaveTheme = {
 name:"emerald-directive",canvasBackground:"#04110b",gridColor:"rgba(52,211,153,.05)",
 nodeBackground:"#0d1f18",nodeSelectedBackground:"#047857",
@@ -9,3 +9,4 @@ handleBackground:"#34d399",handleBorder:"2px solid #04110b",
 panelBackground:"#0a1812",panelBorder:"1px solid rgba(52,211,153,.10)",panelText:"#d1fae5",
 accent:"#34d399",danger:"#ef4444",warning:"#eab308"
 };
+

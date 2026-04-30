@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveBlueprintSteelTheme: CaseWaveTheme = {
 name:"blueprint-steel",canvasBackground:"#173554",gridColor:"rgba(191,219,254,.08)",
 nodeBackground:"#23476d",nodeSelectedBackground:"#2563eb",
@@ -9,3 +9,4 @@ handleBackground:"#dbeafe",handleBorder:"2px solid #173554",
 panelBackground:"#1d4061",panelBorder:"1px solid rgba(191,219,254,.10)",panelText:"#eff6ff",
 accent:"#dbeafe",danger:"#ef4444",warning:"#fde68a"
 };
+

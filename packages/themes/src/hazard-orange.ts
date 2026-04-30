@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveHazardOrangeTheme: CaseWaveTheme = {
 name:"hazard-orange",canvasBackground:"#1c1208",gridColor:"rgba(251,146,60,.05)",
 nodeBackground:"#2b190d",nodeSelectedBackground:"#ea580c",
@@ -9,3 +9,4 @@ handleBackground:"#fb923c",handleBorder:"2px solid #1c1208",
 panelBackground:"#24160a",panelBorder:"1px solid rgba(251,146,60,.10)",panelText:"#ffedd5",
 accent:"#fb923c",danger:"#dc2626",warning:"#facc15"
 };
+

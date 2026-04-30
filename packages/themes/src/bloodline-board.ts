@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveBloodlineBoardTheme: CaseWaveTheme = {
 name:"bloodline-board",canvasBackground:"#1b0909",gridColor:"rgba(248,113,113,.05)",
 nodeBackground:"#2c1212",nodeSelectedBackground:"#991b1b",
@@ -9,3 +9,4 @@ handleBackground:"#ef4444",handleBorder:"2px solid #1b0909",
 panelBackground:"#220e0e",panelBorder:"1px solid rgba(248,113,113,.10)",panelText:"#fee2e2",
 accent:"#ef4444",danger:"#b91c1c",warning:"#f59e0b"
 };
+

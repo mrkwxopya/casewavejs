@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveNightAmberTheme: CaseWaveTheme = {
 name:"night-amber",canvasBackground:"#191003",gridColor:"rgba(245,158,11,.05)",
 nodeBackground:"#281a08",nodeSelectedBackground:"#92400e",
@@ -9,3 +9,4 @@ handleBackground:"#f59e0b",handleBorder:"2px solid #191003",
 panelBackground:"#211607",panelBorder:"1px solid rgba(245,158,11,.10)",panelText:"#fef3c7",
 accent:"#f59e0b",danger:"#dc2626",warning:"#facc15"
 };
+

@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveTacticalGridTheme: CaseWaveTheme = {
   name: "tactical-grid",
@@ -12,3 +12,4 @@ export const caseWaveTacticalGridTheme: CaseWaveTheme = {
   panelBackground:"#131d17",panelBorder:"1px solid rgba(74,222,128,.12)",panelText:"#dcfce7",
   accent:"#4ade80",danger:"#ef4444",warning:"#eab308"
 };
+

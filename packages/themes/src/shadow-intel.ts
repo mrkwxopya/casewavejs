@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveShadowIntelTheme: CaseWaveTheme = {
   name: "shadow-intel",
@@ -12,3 +12,4 @@ export const caseWaveShadowIntelTheme: CaseWaveTheme = {
   panelBackground:"#0d1020",panelBorder:"1px solid rgba(168,85,247,.12)",panelText:"#f5f3ff",
   accent:"#a855f7",danger:"#ef4444",warning:"#f59e0b"
 };
+

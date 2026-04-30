@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveSatelliteOpsTheme: CaseWaveTheme = {
   name: "satellite-ops",
@@ -12,3 +12,4 @@ export const caseWaveSatelliteOpsTheme: CaseWaveTheme = {
   panelBackground:"#0d1a20",panelBorder:"1px solid rgba(45,212,191,.12)",panelText:"#ccfbf1",
   accent:"#2dd4bf",danger:"#ef4444",warning:"#f59e0b"
 };
+

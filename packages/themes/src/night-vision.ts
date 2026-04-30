@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveNightVisionTheme: CaseWaveTheme = {
 name:"night-vision",
 canvasBackground:"#020603",gridColor:"rgba(34,197,94,.05)",
@@ -10,3 +10,4 @@ handleBackground:"#22c55e",handleBorder:"2px solid #020603",
 panelBackground:"#08110b",panelBorder:"1px solid rgba(34,197,94,.12)",panelText:"#dcfce7",
 accent:"#22c55e",danger:"#ef4444",warning:"#eab308"
 };
+

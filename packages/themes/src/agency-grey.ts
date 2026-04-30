@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveAgencyGreyTheme: CaseWaveTheme = {
 name:"agency-grey",canvasBackground:"#1f2937",gridColor:"rgba(209,213,219,.05)",
 nodeBackground:"#374151",nodeSelectedBackground:"#4b5563",
@@ -9,3 +9,4 @@ handleBackground:"#d1d5db",handleBorder:"2px solid #1f2937",
 panelBackground:"#273244",panelBorder:"1px solid rgba(209,213,219,.12)",panelText:"#f9fafb",
 accent:"#d1d5db",danger:"#ef4444",warning:"#f59e0b"
 };
+

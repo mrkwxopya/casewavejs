@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveHandDrawnEdgesTheme: CaseWaveTheme = {
   name: "hand-drawn-edges",
@@ -30,3 +30,4 @@ export const caseWaveHandDrawnEdgesTheme: CaseWaveTheme = {
   danger: "#b91c1c",
   warning: "#d97706"
 };
+

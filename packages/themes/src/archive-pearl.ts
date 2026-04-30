@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveArchivePearlTheme: CaseWaveTheme = {
 name:"archive-pearl",canvasBackground:"#f5f5f0",gridColor:"rgba(163,163,163,.05)",
 nodeBackground:"#ffffff",nodeSelectedBackground:"#f3f4f6",
@@ -9,3 +9,4 @@ handleBackground:"#a3a3a3",handleBorder:"2px solid #ffffff",
 panelBackground:"#ffffff",panelBorder:"1px solid rgba(163,163,163,.10)",panelText:"#111827",
 accent:"#737373",danger:"#dc2626",warning:"#d97706"
 };
+

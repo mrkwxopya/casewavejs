@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveRetroTerminalAmberTheme: CaseWaveTheme = {
   name: "retro-terminal-amber",
@@ -12,3 +12,4 @@ export const caseWaveRetroTerminalAmberTheme: CaseWaveTheme = {
   panelBackground:"#1c1308",panelBorder:"1px solid rgba(251,191,36,.12)",panelText:"#fef3c7",
   accent:"#fbbf24",danger:"#ef4444",warning:"#f59e0b"
 };
+

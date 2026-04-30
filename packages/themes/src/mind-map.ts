@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveMindMapTheme: CaseWaveTheme = {
   name: "mind-map",
@@ -30,3 +30,4 @@ export const caseWaveMindMapTheme: CaseWaveTheme = {
   danger: "#ef4444",
   warning: "#f59e0b"
 };
+

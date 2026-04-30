@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveAnalystDeskTheme: CaseWaveTheme = {
 name:"analyst-desk",canvasBackground:"#eef4fa",gridColor:"rgba(100,116,139,.05)",
 nodeBackground:"#ffffff",nodeSelectedBackground:"#dbeafe",
@@ -9,3 +9,4 @@ handleBackground:"#64748b",handleBorder:"2px solid #ffffff",
 panelBackground:"#ffffff",panelBorder:"1px solid rgba(100,116,139,.10)",panelText:"#0f172a",
 accent:"#64748b",danger:"#dc2626",warning:"#d97706"
 };
+

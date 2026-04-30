@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveHunterGreenTheme: CaseWaveTheme = {
 name:"hunter-green",canvasBackground:"#071108",gridColor:"rgba(132,204,22,.05)",
 nodeBackground:"#132016",nodeSelectedBackground:"#4d7c0f",
@@ -9,3 +9,4 @@ handleBackground:"#84cc16",handleBorder:"2px solid #071108",
 panelBackground:"#0d1810",panelBorder:"1px solid rgba(132,204,22,.12)",panelText:"#ecfccb",
 accent:"#84cc16",danger:"#ef4444",warning:"#eab308"
 };
+

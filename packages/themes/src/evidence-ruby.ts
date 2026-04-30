@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveEvidenceRubyTheme: CaseWaveTheme = {
 name:"evidence-ruby",canvasBackground:"#1a080c",gridColor:"rgba(244,63,94,.05)",
 nodeBackground:"#2c1017",nodeSelectedBackground:"#be123c",
@@ -9,3 +9,4 @@ handleBackground:"#f43f5e",handleBorder:"2px solid #1a080c",
 panelBackground:"#220d13",panelBorder:"1px solid rgba(244,63,94,.10)",panelText:"#ffe4e6",
 accent:"#f43f5e",danger:"#be123c",warning:"#f59e0b"
 };
+

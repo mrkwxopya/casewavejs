@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveMatrixOpsTheme: CaseWaveTheme = {
 name:"matrix-ops",canvasBackground:"#020704",gridColor:"rgba(34,197,94,.05)",
 nodeBackground:"#0a1a10",nodeSelectedBackground:"#166534",
@@ -9,3 +9,4 @@ handleBackground:"#22c55e",handleBorder:"2px solid #020704",
 panelBackground:"#08120b",panelBorder:"1px solid rgba(34,197,94,.10)",panelText:"#dcfce7",
 accent:"#22c55e",danger:"#ef4444",warning:"#eab308"
 };
+

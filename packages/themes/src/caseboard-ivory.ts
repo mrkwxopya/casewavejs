@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveCaseboardIvoryTheme: CaseWaveTheme = {
 name:"caseboard-ivory",canvasBackground:"#f6f0df",gridColor:"rgba(120,53,15,.05)",
 nodeBackground:"#ffffff",nodeSelectedBackground:"#fef3c7",
@@ -9,3 +9,4 @@ handleBackground:"#92400e",handleBorder:"2px solid #ffffff",
 panelBackground:"#faf5e4",panelBorder:"1px solid rgba(120,53,15,.10)",panelText:"#2b1d13",
 accent:"#92400e",danger:"#b91c1c",warning:"#d97706"
 };
+

@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveTopographicMapTheme: CaseWaveTheme = {
   name: "topographic-map",
@@ -30,3 +30,4 @@ export const caseWaveTopographicMapTheme: CaseWaveTheme = {
   danger: "#dc2626",
   warning: "#ca8a04"
 };
+

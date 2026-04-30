@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveCaseBoardClassicTheme: CaseWaveTheme = {
   name: "caseboard-classic",
@@ -30,3 +30,4 @@ export const caseWaveCaseBoardClassicTheme: CaseWaveTheme = {
   danger: "#b91c1c",
   warning: "#d97706"
 };
+

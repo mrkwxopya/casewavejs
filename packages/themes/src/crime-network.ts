@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 
 export const caseWaveCrimeNetworkTheme: CaseWaveTheme = {
   name: "crime-network",
@@ -30,3 +30,4 @@ export const caseWaveCrimeNetworkTheme: CaseWaveTheme = {
   danger: "#b91c1c",
   warning: "#f59e0b"
 };
+

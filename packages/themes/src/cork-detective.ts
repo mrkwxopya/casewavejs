@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveCorkDetectiveTheme: CaseWaveTheme = {
 name:"cork-detective",canvasBackground:"#7c5a39",gridColor:"rgba(255,248,220,.03)",
 nodeBackground:"#fff8dc",nodeSelectedBackground:"#fff1bf",
@@ -9,3 +9,4 @@ handleBackground:"#dc2626",handleBorder:"2px solid #fff8dc",
 panelBackground:"#f2e6c5",panelBorder:"1px solid rgba(82,52,28,.10)",panelText:"#2b1d13",
 accent:"#dc2626",danger:"#991b1b",warning:"#d97706"
 };
+

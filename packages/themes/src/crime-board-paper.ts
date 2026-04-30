@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveCrimeBoardPaperTheme: CaseWaveTheme = {
 name:"crime-board-paper",canvasBackground:"#efe6d2",gridColor:"rgba(82,52,28,.05)",
 nodeBackground:"#fffaf0",nodeSelectedBackground:"#ffefc7",
@@ -9,3 +9,4 @@ handleBackground:"#92400e",handleBorder:"2px solid #fffaf0",
 panelBackground:"#f8efdc",panelBorder:"1px solid rgba(82,52,28,.10)",panelText:"#2b1d13",
 accent:"#92400e",danger:"#b91c1c",warning:"#d97706"
 };
+

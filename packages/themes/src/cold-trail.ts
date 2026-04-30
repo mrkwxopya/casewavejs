@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveColdTrailTheme: CaseWaveTheme = {
 name:"cold-trail",canvasBackground:"#07111f",gridColor:"rgba(147,197,253,.05)",
 nodeBackground:"#102033",nodeSelectedBackground:"#1e3a8a",
@@ -9,3 +9,4 @@ handleBackground:"#93c5fd",handleBorder:"2px solid #07111f",
 panelBackground:"#0d1a2a",panelBorder:"1px solid rgba(147,197,253,.12)",panelText:"#dbeafe",
 accent:"#93c5fd",danger:"#ef4444",warning:"#f59e0b"
 };
+

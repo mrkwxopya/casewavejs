@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveGoldEvidenceTheme: CaseWaveTheme = {
 name:"gold-evidence",canvasBackground:"#ead7a5",gridColor:"rgba(180,83,9,.05)",
 nodeBackground:"#fff8e7",nodeSelectedBackground:"#fde68a",
@@ -9,3 +9,4 @@ handleBackground:"#b45309",handleBorder:"2px solid #fff8e7",
 panelBackground:"#f8edd0",panelBorder:"1px solid rgba(146,64,14,.10)",panelText:"#3b2414",
 accent:"#b45309",danger:"#b91c1c",warning:"#d97706"
 };
+

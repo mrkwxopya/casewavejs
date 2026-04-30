@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveDeepVaultTheme: CaseWaveTheme = {
 name:"deep-vault",canvasBackground:"#111111",gridColor:"rgba(161,161,170,.05)",
 nodeBackground:"#1f1f1f",nodeSelectedBackground:"#404040",
@@ -9,3 +9,4 @@ handleBackground:"#e5e7eb",handleBorder:"2px solid #111111",
 panelBackground:"#171717",panelBorder:"1px solid rgba(212,212,216,.10)",panelText:"#fafafa",
 accent:"#d4d4d8",danger:"#ef4444",warning:"#f59e0b"
 };
+

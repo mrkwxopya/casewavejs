@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveNeonCrimeTheme: CaseWaveTheme = {
 name:"neon-crime",canvasBackground:"#090014",gridColor:"rgba(236,72,153,.05)",
 nodeBackground:"#160022",nodeSelectedBackground:"#581c87",
@@ -9,3 +9,4 @@ handleBackground:"#ec4899",handleBorder:"2px solid #090014",
 panelBackground:"#120018",panelBorder:"1px solid rgba(236,72,153,.12)",panelText:"#fdf4ff",
 accent:"#ec4899",danger:"#ef4444",warning:"#f59e0b"
 };
+

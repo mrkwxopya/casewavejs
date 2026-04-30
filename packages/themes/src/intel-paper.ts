@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveIntelPaperTheme: CaseWaveTheme = {
 name:"intel-paper",canvasBackground:"#ece4d0",gridColor:"rgba(82,52,28,.05)",
 nodeBackground:"#fff9ea",nodeSelectedBackground:"#ffefc7",
@@ -9,3 +9,4 @@ handleBackground:"#92400e",handleBorder:"2px solid #fff9ea",
 panelBackground:"#f6edd7",panelBorder:"1px solid rgba(82,52,28,.10)",panelText:"#2b1d13",
 accent:"#92400e",danger:"#b91c1c",warning:"#d97706"
 };
+

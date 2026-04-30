@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveSpecterOpsTheme: CaseWaveTheme = {
 name:"specter-ops",canvasBackground:"#050914",gridColor:"rgba(96,165,250,.05)",
 nodeBackground:"#121c2d",nodeSelectedBackground:"#1e40af",
@@ -9,3 +9,4 @@ handleBackground:"#60a5fa",handleBorder:"2px solid #050914",
 panelBackground:"#0e1623",panelBorder:"1px solid rgba(96,165,250,.10)",panelText:"#dbeafe",
 accent:"#60a5fa",danger:"#ef4444",warning:"#f59e0b"
 };
+

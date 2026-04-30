@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveIronDirectiveTheme: CaseWaveTheme = {
 name:"iron-directive",canvasBackground:"#1e2329",gridColor:"rgba(203,213,225,.05)",
 nodeBackground:"#2d3748",nodeSelectedBackground:"#475569",
@@ -9,3 +9,4 @@ handleBackground:"#cbd5e1",handleBorder:"2px solid #1e2329",
 panelBackground:"#27303d",panelBorder:"1px solid rgba(203,213,225,.10)",panelText:"#f8fafc",
 accent:"#cbd5e1",danger:"#ef4444",warning:"#f59e0b"
 };
+

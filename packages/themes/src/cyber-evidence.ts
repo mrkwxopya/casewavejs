@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveCyberEvidenceTheme: CaseWaveTheme = {
 name:"cyber-evidence",canvasBackground:"#050816",gridColor:"rgba(236,72,153,.05)",
 nodeBackground:"#111827",nodeSelectedBackground:"#581c87",
@@ -9,3 +9,4 @@ handleBackground:"#ec4899",handleBorder:"2px solid #050816",
 panelBackground:"#0f1020",panelBorder:"1px solid rgba(236,72,153,.12)",panelText:"#fdf4ff",
 accent:"#ec4899",danger:"#ef4444",warning:"#f59e0b"
 };
+

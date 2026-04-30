@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveEncryptedTheme: CaseWaveTheme = {
 name:"encrypted",canvasBackground:"#06100f",gridColor:"rgba(45,212,191,.05)",
 nodeBackground:"#10201e",nodeSelectedBackground:"#115e59",
@@ -9,3 +9,4 @@ handleBackground:"#2dd4bf",handleBorder:"2px solid #06100f",
 panelBackground:"#0c1817",panelBorder:"1px solid rgba(45,212,191,.12)",panelText:"#ccfbf1",
 accent:"#2dd4bf",danger:"#ef4444",warning:"#f59e0b"
 };
+

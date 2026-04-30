@@ -1,4 +1,4 @@
-import type { CaseWaveTheme } from "@casewave/react";
+﻿import type { CaseWaveTheme } from "@casewavejs/react";
 export const caseWaveDossierBlackTheme: CaseWaveTheme = {
 name:"dossier-black",canvasBackground:"#0b0b0b",gridColor:"rgba(212,212,216,.05)",
 nodeBackground:"#171717",nodeSelectedBackground:"#262626",
@@ -8,3 +8,4 @@ edgeStroke:"rgba(212,212,216,.40)",edgeSelectedStroke:"#fafafa",edgePreviewStrok
 handleBackground:"#d4d4d8",handleBorder:"2px solid #0b0b0b",panelBackground:"#111111",panelBorder:"1px solid rgba(212,212,216,.12)",panelText:"#fafafa",
 accent:"#d4d4d8",danger:"#ef4444",warning:"#f59e0b"
 };
+
