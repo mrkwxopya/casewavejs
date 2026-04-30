@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+﻿import { useEffect, useState } from "react";
 import type {
   CaseWaveEdge,
   CaseWaveGraphSchema,
   CaseWaveNode,
   CaseWaveSelection
-} from "@casewave/core";
+} from "@casewavejs/core";
 import { useCaseWaveGraph } from "./CaseWaveProvider";
 
 export function useCaseWaveSchema(): CaseWaveGraphSchema {
@@ -93,3 +93,5 @@ export function useCaseWaveSelection(initial?: CaseWaveSelection) {
     selectEdge
   };
 }
+
+

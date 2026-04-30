@@ -1,4 +1,4 @@
-import { CaseWaveGraph } from "../packages/core/dist/index.js";
+﻿import { CaseWaveGraph } from "../packages/core/dist/index.js";
 import { dagLayout, gridLayout } from "../packages/layout/dist/index.js";
 import { createGraphStats } from "../packages/devtools/dist/index.js";
 import { caseWaveMidnightTheme } from "../packages/themes/dist/index.js";
@@ -72,3 +72,5 @@ if (graph.getEdges().length !== 1) {
 }
 
 console.log("CaseWave smoke test passed.");
+
+

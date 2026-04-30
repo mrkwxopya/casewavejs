@@ -1,4 +1,4 @@
-export type CaseWaveId = string;
+﻿export type CaseWaveId = string;
 
 export type CaseWaveDictionary<T = unknown> = Record<string, T>;
 
@@ -184,3 +184,5 @@ export interface CaseWaveGraphOptions {
   hypergraphMode?: boolean;
   readonly?: boolean;
 }
+
+

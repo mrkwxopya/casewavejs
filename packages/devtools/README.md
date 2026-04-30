@@ -1,11 +1,11 @@
-﻿# @casewave/devtools
+﻿# @casewavejs/devtools
 
 CaseWave devtools package.
 
 ## Install
 
 `ash
-npm install @casewave/devtools
+npm install @casewavejs/devtools
 ``
 
 ## Documentation
@@ -15,7 +15,7 @@ npm install @casewave/devtools
 ## Usage
 
 `	s
-import {} from '@casewave/devtools'
+import {} from '@casewavejs/devtools'
 `
 
 ## Features
@@ -31,3 +31,5 @@ import {} from '@casewave/devtools'
 ## License
 
 MIT
+
+

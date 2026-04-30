@@ -1,4 +1,4 @@
-import type { CaseWaveGraph } from "./graph";
+﻿import type { CaseWaveGraph } from "./graph";
 import type { CaseWaveGraphSchema } from "./types";
 
 export interface CaseWaveCommandContext {
@@ -52,3 +52,5 @@ export class CaseWaveCommandBus {
     this.commands.clear();
   }
 }
+
+

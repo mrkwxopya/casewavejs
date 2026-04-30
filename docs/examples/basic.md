@@ -1,8 +1,8 @@
 ﻿# Basic Board
 
 ```tsx
-import { CaseWaveGraph } from "@casewave/core";
-import { CaseWaveProvider, CaseWaveCanvas } from "@casewave/react";
+import { CaseWaveGraph } from "@casewavejs/core";
+import { CaseWaveProvider, CaseWaveCanvas } from "@casewavejs/react";
 
 const graph = new CaseWaveGraph({
   allowCycles: true
@@ -37,3 +37,5 @@ export default function App() {
   );
 }
 ```
+
+

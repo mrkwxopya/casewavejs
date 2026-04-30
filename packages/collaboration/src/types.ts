@@ -1,4 +1,4 @@
-export interface CaseWaveUserPresence {
+﻿export interface CaseWaveUserPresence {
   userId: string;
   name?: string;
   color?: string;
@@ -21,3 +21,5 @@ export interface CaseWavePresenceUpdate {
   userId: string;
   patch: Partial<Omit<CaseWaveUserPresence, "userId">>;
 }
+
+

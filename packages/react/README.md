@@ -1,11 +1,11 @@
-﻿# @casewave/react
+﻿# @casewavejs/react
 
 CaseWave react package.
 
 ## Install
 
 `ash
-npm install @casewave/react
+npm install @casewavejs/react
 ``
 
 ## Documentation
@@ -15,7 +15,7 @@ npm install @casewave/react
 ## Usage
 
 `	s
-import {} from '@casewave/react'
+import {} from '@casewavejs/react'
 `
 
 ## Features
@@ -31,3 +31,5 @@ import {} from '@casewave/react'
 ## License
 
 MIT
+
+

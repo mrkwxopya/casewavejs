@@ -1,5 +1,5 @@
-import React from "react";
-import type { CaseWaveCamera, CaseWaveEdge, CaseWaveNode } from "@casewave/core";
+﻿import React from "react";
+import type { CaseWaveCamera, CaseWaveEdge, CaseWaveNode } from "@casewavejs/core";
 
 export interface CaseWaveMinimapProps {
   nodes: CaseWaveNode[];
@@ -113,4 +113,6 @@ function getGraphBounds(nodes: CaseWaveNode[]) {
     height: maxY - minY
   };
 }
+
+
 

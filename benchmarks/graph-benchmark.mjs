@@ -1,4 +1,4 @@
-import { performance } from "node:perf_hooks";
+﻿import { performance } from "node:perf_hooks";
 import { CaseWaveGraph } from "../packages/core/dist/index.js";
 
 const NODE_COUNT = 1000;
@@ -64,3 +64,5 @@ console.log(
   "Total ms:",
   Math.round(t2 - t0)
 );
+
+

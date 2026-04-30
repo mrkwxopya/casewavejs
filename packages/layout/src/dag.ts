@@ -1,4 +1,4 @@
-import type { CaseWaveGraphSchema } from "@casewave/core";
+﻿import type { CaseWaveGraphSchema } from "@casewavejs/core";
 import type {
   CaseWaveLayoutAdapter,
   CaseWaveLayoutOptions,
@@ -103,3 +103,5 @@ export const dagLayoutAdapter: CaseWaveLayoutAdapter = {
   name: "DAG Layout",
   layout: dagLayout
 };
+
+

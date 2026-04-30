@@ -1,4 +1,4 @@
-import type { CaseWaveGraph } from "@casewave/core";
+﻿import type { CaseWaveGraph } from "@casewavejs/core";
 
 export interface CaseWaveHistorySummary {
   canUndo: boolean;
@@ -15,3 +15,5 @@ export function createHistorySummary(graph: CaseWaveGraph): CaseWaveHistorySumma
     redoCount: graph.history.getRedoStack().length
   };
 }
+
+

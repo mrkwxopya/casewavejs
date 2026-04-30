@@ -1,24 +1,24 @@
-{
-  "name": "casewave-clean-room-consumer",
-  "private": true,
-  "version": "0.1.0",
-  "type": "module",
-  "scripts": {
-    "typecheck": "tsc --noEmit",
-    "build": "tsc && vite build"
-  },
-  "dependencies": {
-    "@casewave/core": "file:../../packages/core",
-    "@casewave/layout": "file:../../packages/layout",
-    "@casewave/react": "file:../../packages/react",
-    "@casewave/themes": "file:../../packages/themes",
-    "casewave-monorepo": "file:../..",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.1",
-    "typescript": "^5.5.4",
-    "vite": "^5.4.0"
-  }
+﻿{
+    "name":  "casewave-clean-room-consumer",
+    "private":  true,
+    "version":  "0.1.0",
+    "type":  "module",
+    "scripts":  {
+                    "typecheck":  "tsc --noEmit",
+                    "build":  "tsc \u0026\u0026 vite build"
+                },
+    "dependencies":  {
+                         "@casewavejs/core":  "file:",
+                         "@casewavejs/layout":  "file:",
+                         "@casewavejs/react":  "file:",
+                         "@casewavejs/themes":  "file:",
+                         "casewave-monorepo":  "file:../..",
+                         "react":  "^18.3.1",
+                         "react-dom":  "^18.3.1"
+                     },
+    "devDependencies":  {
+                            "@vitejs/plugin-react":  "^4.3.1",
+                            "typescript":  "^5.5.4",
+                            "vite":  "^5.4.0"
+                        }
 }

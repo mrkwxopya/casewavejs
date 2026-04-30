@@ -1,4 +1,4 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 
 const raw = fs.readFileSync(
   "./fixtures/investigation-demo.json",
@@ -16,3 +16,5 @@ if (!Array.isArray(json.edges)) {
 }
 
 console.log("Fixture OK");
+
+

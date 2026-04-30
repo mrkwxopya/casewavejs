@@ -1,4 +1,4 @@
-import type { CaseWavePlugin } from "@casewave/react";
+﻿import type { CaseWavePlugin } from "@casewavejs/react";
 
 export interface CaseWaveSchemaStats {
   nodeCount: number;
@@ -43,3 +43,5 @@ export function createSchemaStatsPlugin(
     }
   };
 }
+
+

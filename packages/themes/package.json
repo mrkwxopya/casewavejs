@@ -1,7 +1,7 @@
 {
-    "name": "@casewave/themes",
+    "name": "@casewavejs/themes",
     "version": "0.1.4",
-    "description": "Theme presets for CaseWave",
+    "description": "51 ready-to-use theme presets and registry utilities for CaseWave.",
     "author": "mrkwxopya",
     "license": "MIT",
     "type": "module",
@@ -16,10 +16,11 @@
         }
     },
     "peerDependencies": {
-        "@casewave/react": "0.1.0"
+        "@casewavejs/react": "file:"
     },
     "dependencies": {
-        "@casewave/react": "0.1.0"
+        "@casewavejs/core": "file:../core",
+        "@casewavejs/react": "file:"
     },
     "scripts": {
         "build": "tsup src/index.ts --format esm,cjs --dts",
@@ -28,15 +29,17 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/mrkwxopya/casewave.git",
+        "url": "git+https://github.com/mrkwxopya/casewave.git",
         "directory": "packages/themes"
     },
     "keywords": [
         "casewave",
+        "themes",
         "react",
         "graph",
-        "node-link",
+        "node-editor",
         "diagram",
+        "investigation-board",
         "knowledge-graph",
         "typescript"
     ],
@@ -45,5 +48,11 @@
         "README.md"
     ],
     "sideEffects": false,
-    "homepage": "[https://mrkwxopya.github.io/casewave/packages/themes](https://mrkwxopya.github.io/casewave/packages/themes)"
+    "homepage": "https://mrkwxopya.github.io/casewave/",
+    "bugs": {
+        "url": "https://github.com/mrkwxopya/casewave/issues"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }

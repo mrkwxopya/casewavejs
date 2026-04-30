@@ -1,4 +1,4 @@
-# CaseWave Engineering Done
+﻿# CaseWave Engineering Done
 
 This checkpoint marks the end of the pre-publish engineering phase.
 
@@ -38,4 +38,6 @@ Run:
 
 ```bash
 npm run check:final-engineering
+
+
 

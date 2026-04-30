@@ -1,4 +1,4 @@
-import { validateGraph } from "./constraints";
+﻿import { validateGraph } from "./constraints";
 import { CaseWaveEventBus } from "./events";
 import { createSnapshot, type CaseWaveSnapshot } from "./serializer";
 import { CaseWaveHistory } from "./history";
@@ -369,5 +369,7 @@ export class CaseWaveGraph {
     }
   }
 }
+
+
 
 

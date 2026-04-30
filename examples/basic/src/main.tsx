@@ -1,42 +1,23 @@
-import React from "react";
+﻿import React, { useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
-import { CaseWaveGraph } from "@casewave/core";
+import { CaseWaveGraph } from "@casewavejs/core";
+import { CaseWaveProvider, CaseWaveCanvas } from "@casewavejs/react";
 import {
-  CaseWaveProvider,
-  CaseWaveCanvas,
-  type CaseWaveNodeRendererMap
-} from "@casewave/react";
-import { caseWaveEvidenceTheme } from "@casewave/themes";
-
+  caseWaveThemeMeta,
+  caseWaveThemeNames,
+  getCaseWaveTheme,
+  type CaseWaveThemeName
+} from "@casewavejs/themes";
 
 const graph = new CaseWaveGraph({
-  allowCycles: true,
-  hypergraphMode: true
-});
-
-graph.addNode({
-  id: "group_1",
-  type: "group",
-  position: { x: 80, y: 80 },
-  data: {
-    title: "Case Board"
-  }
+  allowCycles: true
 });
 
 graph.addNode({
   id: "person_1",
   type: "person",
-  parentId: "group_1",
-  position: { x: 160, y: 160 },
-  size: { width: 180, height: 96 },
-  ports: [
-    {
-      id: "out",
-      nodeId: "person_1",
-      label: "Out",
-      position: { x: 180, y: 48 }
-    }
-  ],
+  position: { x: 120, y: 120 },
+  size: { width: 180, height: 90 },
   data: {
     name: "Suspect A"
   }
@@ -45,85 +26,114 @@ graph.addNode({
 graph.addNode({
   id: "evidence_1",
   type: "evidence",
-  parentId: "group_1",
-  position: { x: 480, y: 200 },
-  size: { width: 200, height: 96 },
-  ports: [
-    {
-      id: "in",
-      nodeId: "evidence_1",
-      label: "In",
-      position: { x: 0, y: 48 }
-    }
-  ],
+  position: { x: 440, y: 180 },
+  size: { width: 200, height: 90 },
   data: {
     title: "Evidence File"
+  }
+});
+
+graph.addNode({
+  id: "location_1",
+  type: "location",
+  position: { x: 280, y: 360 },
+  size: { width: 200, height: 90 },
+  data: {
+    title: "Old Warehouse"
   }
 });
 
 graph.addEdge({
   id: "edge_1",
   type: "default",
-  source: {
-    kind: "node",
-    nodeId: "person_1",
-    portId: "out"
-  },
-  target: {
-    kind: "node",
-    nodeId: "evidence_1",
-    portId: "in"
-  },
+  source: { kind: "node", nodeId: "person_1" },
+  target: { kind: "node", nodeId: "evidence_1" },
   direction: "directed",
   relation: "evidence_of",
-  routing: "bezier",
-  confidence: 0.82
+  routing: "bezier"
 });
 
-const nodeRenderers: CaseWaveNodeRendererMap = {
-  person: ({ node }) => (
-    <div>
-      <strong>{String((node.data as { name?: string } | undefined)?.name ?? "Person")}</strong>
-      <div style={{ fontSize: 12, opacity: 0.7 }}>Person node</div>
-    </div>
-  ),
-  evidence: ({ node }) => (
-    <div>
-      <strong>{String((node.data as { title?: string } | undefined)?.title ?? "Evidence")}</strong>
-      <div style={{ fontSize: 12, opacity: 0.7 }}>Evidence node</div>
-    </div>
-  ),
-  group: ({ node }) => (
-    <div>
-      <strong>{String((node.data as { title?: string } | undefined)?.title ?? "Group")}</strong>
-      <div style={{ fontSize: 12, opacity: 0.7 }}>Compound group</div>
-    </div>
-  )
-};
+graph.addEdge({
+  id: "edge_2",
+  type: "default",
+  source: { kind: "node", nodeId: "person_1" },
+  target: { kind: "node", nodeId: "location_1" },
+  direction: "directed",
+  relation: "visited",
+  routing: "bezier"
+});
 
 function App() {
+  const [themeName, setThemeName] = useState<CaseWaveThemeName>("dark");
+
+  const selectedTheme = useMemo(() => {
+    return getCaseWaveTheme(themeName);
+  }, [themeName]);
+
+  const selectedMeta = caseWaveThemeMeta.find((item) => item.name === themeName);
+
   return (
     <CaseWaveProvider graph={graph}>
+      <div
+        style={{
+          position: "fixed",
+          zIndex: 1000,
+          top: 16,
+          left: 16,
+          width: 280,
+          padding: 14,
+          borderRadius: 12,
+          background: selectedTheme.panelBackground,
+          border: selectedTheme.panelBorder,
+          color: selectedTheme.panelText,
+          boxShadow: "0 14px 38px rgba(0,0,0,0.28)"
+        }}
+      >
+        <strong style={{ display: "block", marginBottom: 8 }}>
+          CaseWave Theme Demo
+        </strong>
+
+        <select
+          value={themeName}
+          onChange={(event) => {
+            setThemeName(event.target.value as CaseWaveThemeName);
+          }}
+          style={{
+            width: "100%",
+            padding: 8,
+            borderRadius: 8,
+            marginBottom: 10
+          }}
+        >
+          {caseWaveThemeNames.map((name) => {
+            const meta = caseWaveThemeMeta.find((item) => item.name === name);
+
+            return (
+              <option key={name} value={name}>
+                {meta?.label ?? name}
+              </option>
+            );
+          })}
+        </select>
+
+        <div style={{ fontSize: 13, opacity: 0.82 }}>
+          <div>Category: {selectedMeta?.category}</div>
+          <div>{selectedMeta?.description}</div>
+        </div>
+      </div>
+
       <CaseWaveCanvas
         width="100vw"
         height="100vh"
-        theme={caseWaveEvidenceTheme}
-        nodeRenderers={nodeRenderers}
-
-        minimap
+        theme={selectedTheme}
         grid
         snapToGrid
-
-
+        minimap
       />
     </CaseWaveProvider>
   );
 }
 
 createRoot(document.getElementById("root")!).render(<App />);
-
-
-
-
 
 

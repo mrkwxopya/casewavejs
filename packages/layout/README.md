@@ -1,11 +1,11 @@
-﻿# @casewave/layout
+﻿# @casewavejs/layout
 
 CaseWave layout package.
 
 ## Install
 
 `ash
-npm install @casewave/layout
+npm install @casewavejs/layout
 ``
 
 ## Documentation
@@ -15,7 +15,7 @@ npm install @casewave/layout
 ## Usage
 
 `	s
-import {} from '@casewave/layout'
+import {} from '@casewavejs/layout'
 `
 
 ## Features
@@ -31,3 +31,5 @@ import {} from '@casewave/layout'
 ## License
 
 MIT
+
+

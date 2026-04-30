@@ -1,4 +1,4 @@
-import type { CaseWavePlugin } from "@casewave/react";
+﻿import type { CaseWavePlugin } from "@casewavejs/react";
 
 export interface CaseWaveLoggerPluginOptions {
   prefix?: string;
@@ -42,3 +42,5 @@ export function createLoggerPlugin(
     }
   };
 }
+
+

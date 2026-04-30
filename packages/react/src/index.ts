@@ -1,4 +1,4 @@
-export const CASEWAVE_REACT_VERSION = "0.1.0";
+﻿export const CASEWAVE_REACT_VERSION = "0.1.0";
 
 export * from "./CaseWaveProvider";
 export * from "./hooks";
@@ -26,3 +26,7 @@ export * from "./layers";
 export * from "./pluginTypes";
 export * from "./pluginRuntime";
 export * from "./theme";
+
+
+
+

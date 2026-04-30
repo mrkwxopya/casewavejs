@@ -1,7 +1,7 @@
 ﻿# Theme Example
 
 ```tsx
-import { caseWaveMidnightTheme } from "@casewave/themes";
+import { caseWaveMidnightTheme } from "@casewavejs/themes";
 
 <CaseWaveCanvas
   theme={caseWaveMidnightTheme}
@@ -9,3 +9,5 @@ import { caseWaveMidnightTheme } from "@casewave/themes";
   height="100vh"
 />
 ```
+
+

@@ -1,11 +1,11 @@
-﻿# @casewave/collaboration
+﻿# @casewavejs/collaboration
 
 CaseWave collaboration package.
 
 ## Install
 
 `ash
-npm install @casewave/collaboration
+npm install @casewavejs/collaboration
 ``
 
 ## Documentation
@@ -15,7 +15,7 @@ npm install @casewave/collaboration
 ## Usage
 
 `	s
-import {} from '@casewave/collaboration'
+import {} from '@casewavejs/collaboration'
 `
 
 ## Features
@@ -31,3 +31,5 @@ import {} from '@casewave/collaboration'
 ## License
 
 MIT
+
+

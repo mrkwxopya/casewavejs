@@ -1,7 +1,7 @@
-import type {
+﻿import type {
   CaseWaveGraphSchema,
   CaseWaveSelection
-} from "@casewave/core";
+} from "@casewavejs/core";
 
 export interface CaseWaveDevtoolsState {
   open: boolean;
@@ -12,3 +12,5 @@ export interface CaseWaveDevtoolsState {
   selectedNodeCount: number;
   selectedEdgeCount: number;
 }
+
+

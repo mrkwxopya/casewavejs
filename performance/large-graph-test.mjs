@@ -1,4 +1,4 @@
-import { performance } from "node:perf_hooks";
+﻿import { performance } from "node:perf_hooks";
 import { CaseWaveGraph } from "../packages/core/dist/index.js";
 import { createGraphStats } from "../packages/devtools/dist/index.js";
 import { dagLayout, gridLayout } from "../packages/layout/dist/index.js";
@@ -88,3 +88,5 @@ if (schema.nodes.length !== NODE_COUNT) {
 if (schema.edges.length === 0) {
   throw new Error("Large graph test failed: no edges created.");
 }
+
+

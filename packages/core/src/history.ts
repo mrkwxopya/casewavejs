@@ -1,4 +1,4 @@
-import type { CaseWaveGraphSchema } from "./types";
+﻿import type { CaseWaveGraphSchema } from "./types";
 import { cloneGraphSchema } from "./serializer";
 
 export interface CaseWaveHistoryEntry {
@@ -99,3 +99,5 @@ export class CaseWaveHistory {
 export function createHistoryEntryId(): string {
   return `history_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
 }
+
+

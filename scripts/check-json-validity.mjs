@@ -1,4 +1,4 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 import path from "node:path";
 
 const roots = [
@@ -53,3 +53,5 @@ for (const root of roots) {
 }
 
 console.log("JSON validity check OK.");
+
+

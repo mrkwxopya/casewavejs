@@ -1,4 +1,4 @@
-export type CaseWaveEventHandler<TPayload = unknown> = (
+﻿export type CaseWaveEventHandler<TPayload = unknown> = (
   payload: TPayload
 ) => void;
 
@@ -64,3 +64,5 @@ export class CaseWaveEventBus {
     return this.listeners.get(eventName)?.size ?? 0;
   }
 }
+
+

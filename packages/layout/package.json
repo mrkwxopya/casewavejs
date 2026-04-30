@@ -1,5 +1,5 @@
 {
-    "name": "@casewave/layout",
+    "name": "@casewavejs/layout",
     "version": "0.1.4",
     "description": "Layout engine adapters for CaseWave",
     "author": "mrkwxopya",
@@ -16,10 +16,10 @@
         }
     },
     "peerDependencies": {
-        "@casewave/core": "0.1.0"
+        "@casewavejs/core": "file:"
     },
     "dependencies": {
-        "@casewave/core": "0.1.0"
+        "@casewavejs/core": "file:"
     },
     "scripts": {
         "build": "tsup src/index.ts --format esm,cjs --dts",

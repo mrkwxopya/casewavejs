@@ -1,4 +1,4 @@
-export function invariant(
+﻿export function invariant(
   condition: unknown,
   message: string
 ): asserts condition {
@@ -15,3 +15,5 @@ export function warning(
     console.warn(`CaseWave warning: ${message}`);
   }
 }
+
+

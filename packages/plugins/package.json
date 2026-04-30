@@ -1,5 +1,5 @@
 {
-    "name": "@casewave/plugins",
+    "name": "@casewavejs/plugins",
     "version": "0.1.4",
     "description": "Plugin utilities and built-in plugins for CaseWave",
     "author": "mrkwxopya",
@@ -16,12 +16,12 @@
         }
     },
     "peerDependencies": {
-        "@casewave/core": "0.1.0",
-        "@casewave/react": "0.1.0"
+        "@casewavejs/core": "file:",
+        "@casewavejs/react": "file:"
     },
     "dependencies": {
-        "@casewave/core": "0.1.0",
-        "@casewave/react": "0.1.0"
+        "@casewavejs/core": "file:",
+        "@casewavejs/react": "file:"
     },
     "scripts": {
         "build": "tsup src/index.ts --format esm,cjs --dts",

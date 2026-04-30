@@ -3,13 +3,13 @@
 Package:
 
 ```bash
-npm install @casewave/layout
+npm install @casewavejs/layout
 ```
 
 ## DAG Layout
 
 ```ts
-import { dagLayout } from "@casewave/layout";
+import { dagLayout } from "@casewavejs/layout";
 
 const result = dagLayout(graph.toJSON());
 
@@ -21,7 +21,7 @@ for (const [nodeId, position] of Object.entries(result.positions)) {
 ## Grid Layout
 
 ```ts
-import { gridLayout } from "@casewave/layout";
+import { gridLayout } from "@casewavejs/layout";
 
 const result = gridLayout(graph.toJSON(), {
   columns: 4,
@@ -29,3 +29,5 @@ const result = gridLayout(graph.toJSON(), {
   gapY: 160
 });
 ```
+
+

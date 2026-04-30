@@ -3,15 +3,15 @@
 Package:
 
 ```bash
-npm install @casewave/react
+npm install @casewavejs/react
 ```
 
-`@casewave/react` provides the visual editor renderer.
+`@casewavejs/react` provides the visual editor renderer.
 
 ## Provider
 
 ```tsx
-import { CaseWaveProvider } from "@casewave/react";
+import { CaseWaveProvider } from "@casewavejs/react";
 
 <CaseWaveProvider graph={graph}>
   <App />
@@ -21,7 +21,7 @@ import { CaseWaveProvider } from "@casewave/react";
 ## Canvas
 
 ```tsx
-import { CaseWaveCanvas } from "@casewave/react";
+import { CaseWaveCanvas } from "@casewavejs/react";
 
 <CaseWaveCanvas
   width="100vw"
@@ -49,3 +49,5 @@ Group rendering
 Custom node renderers
 Custom edge renderers
 ```
+
+

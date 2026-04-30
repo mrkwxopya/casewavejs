@@ -1,4 +1,4 @@
-import {
+﻿import {
   createDefaultMigrationRegistry,
   parseAndMigrateCaseWaveGraph
 } from "../packages/core/dist/index.js";
@@ -41,3 +41,5 @@ if (migrated.metadata?.migrated !== true) {
 }
 
 console.log("Migration test passed.");
+
+

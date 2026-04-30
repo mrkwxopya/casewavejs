@@ -3,15 +3,15 @@
 Package:
 
 ```bash
-npm install @casewave/core
+npm install @casewavejs/core
 ```
 
-`@casewave/core` is the headless graph engine. It does not depend on React.
+`@casewavejs/core` is the headless graph engine. It does not depend on React.
 
 ## Create Graph
 
 ```ts
-import { CaseWaveGraph } from "@casewave/core";
+import { CaseWaveGraph } from "@casewavejs/core";
 
 const graph = new CaseWaveGraph({
   allowCycles: true,
@@ -94,3 +94,5 @@ if (!result.valid) {
   console.log(result.errors);
 }
 ```
+
+

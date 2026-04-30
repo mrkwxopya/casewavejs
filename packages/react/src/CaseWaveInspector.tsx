@@ -1,5 +1,5 @@
-import React from "react";
-import type { CaseWaveGraph } from "@casewave/core";
+﻿import React from "react";
+import type { CaseWaveGraph } from "@casewavejs/core";
 import type { CaseWaveInspectorState } from "./inspector";
 
 export interface CaseWaveInspectorProps {
@@ -145,3 +145,5 @@ function InspectorJson(props: { value: unknown }) {
     </details>
   );
 }
+
+

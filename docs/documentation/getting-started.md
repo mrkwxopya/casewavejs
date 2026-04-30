@@ -3,19 +3,19 @@
 ## Install
 
 ```bash
-npm install @casewave/core @casewave/react
+npm install @casewavejs/core @casewavejs/react
 ```
 
 Optional packages:
 
 ```bash
-npm install @casewave/layout @casewave/themes @casewave/plugins @casewave/devtools
+npm install @casewavejs/layout @casewavejs/themes @casewavejs/plugins @casewavejs/devtools
 ```
 
 ## Create Graph
 
 ```ts
-import { CaseWaveGraph } from "@casewave/core";
+import { CaseWaveGraph } from "@casewavejs/core";
 
 const graph = new CaseWaveGraph({
   allowCycles: true,
@@ -68,7 +68,7 @@ graph.addEdge({
 ## Render in React
 
 ```tsx
-import { CaseWaveProvider, CaseWaveCanvas } from "@casewave/react";
+import { CaseWaveProvider, CaseWaveCanvas } from "@casewavejs/react";
 
 export default function App() {
   return (
@@ -84,3 +84,5 @@ export default function App() {
   );
 }
 ```
+
+

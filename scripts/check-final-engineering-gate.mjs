@@ -1,4 +1,4 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 
 const requiredScripts = [
   "typecheck",
@@ -29,3 +29,5 @@ for (const script of requiredScripts) {
 }
 
 console.log("Final engineering gate OK.");
+
+

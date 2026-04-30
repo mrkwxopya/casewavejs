@@ -1,2 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 fs.rmSync('dist', { recursive: true, force: true });
+
+

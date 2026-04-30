@@ -1,5 +1,5 @@
-import React, { createContext, useContext, useMemo } from "react";
-import { CaseWaveGraph, type CaseWaveGraphOptions } from "@casewave/core";
+﻿import React, { createContext, useContext, useMemo } from "react";
+import { CaseWaveGraph, type CaseWaveGraphOptions } from "@casewavejs/core";
 
 const CaseWaveContext = createContext<CaseWaveGraph | null>(null);
 
@@ -30,3 +30,5 @@ export function useCaseWaveGraph(): CaseWaveGraph {
 
   return graph;
 }
+
+

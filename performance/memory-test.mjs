@@ -1,4 +1,4 @@
-import { CaseWaveGraph } from "../packages/core/dist/index.js";
+﻿import { CaseWaveGraph } from "../packages/core/dist/index.js";
 
 const graph = new CaseWaveGraph({
   allowCycles: true
@@ -48,3 +48,5 @@ console.log({
 if (snapshots.length !== 50) {
   throw new Error("Memory test failed: snapshots missing.");
 }
+
+

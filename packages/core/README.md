@@ -1,11 +1,11 @@
-﻿# @casewave/core
+﻿# @casewavejs/core
 
 CaseWave core package.
 
 ## Install
 
 `ash
-npm install @casewave/core
+npm install @casewavejs/core
 ``
 
 ## Documentation
@@ -15,7 +15,7 @@ npm install @casewave/core
 ## Usage
 
 `	s
-import {} from '@casewave/core'
+import {} from '@casewavejs/core'
 `
 
 ## Features
@@ -31,3 +31,5 @@ import {} from '@casewave/core'
 ## License
 
 MIT
+
+

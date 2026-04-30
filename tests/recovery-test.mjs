@@ -1,4 +1,4 @@
-import { CaseWaveGraph } from "../packages/core/dist/index.js";
+﻿import { CaseWaveGraph } from "../packages/core/dist/index.js";
 
 const graph = new CaseWaveGraph({
   allowCycles: true
@@ -31,3 +31,5 @@ if (!graph.getNode("safe_node")) {
 }
 
 console.log("Recovery test passed.");
+
+

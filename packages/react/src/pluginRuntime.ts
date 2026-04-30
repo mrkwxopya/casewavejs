@@ -1,4 +1,4 @@
-import type { CaseWaveGraphSchema, CaseWaveSelection } from "@casewave/core";
+﻿import type { CaseWaveGraphSchema, CaseWaveSelection } from "@casewavejs/core";
 import type { CaseWavePlugin, CaseWavePluginContext } from "./pluginTypes";
 
 export class CaseWavePluginRuntime {
@@ -52,3 +52,5 @@ export class CaseWavePluginRuntime {
     this.plugins.clear();
   }
 }
+
+

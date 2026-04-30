@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import type { CaseWaveDevtoolsState } from "./devtoolsTypes";
 
 export interface CaseWaveDevtoolsProps {
@@ -111,3 +111,5 @@ function DevtoolsRow(props: { label: string; value: number }) {
     </div>
   );
 }
+
+

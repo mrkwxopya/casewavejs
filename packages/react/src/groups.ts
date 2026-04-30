@@ -1,4 +1,4 @@
-import type { CaseWaveNode } from "@casewave/core";
+﻿import type { CaseWaveNode } from "@casewavejs/core";
 
 export function getChildNodes(
   nodes: CaseWaveNode[],
@@ -80,3 +80,5 @@ export function getGroupBounds(
     height: maxY - minY + padding * 2
   };
 }
+
+

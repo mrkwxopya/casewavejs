@@ -1,4 +1,4 @@
-import type { CaseWaveLayoutAdapter } from "./types";
+﻿import type { CaseWaveLayoutAdapter } from "./types";
 import { dagLayoutAdapter } from "./dag";
 import { gridLayoutAdapter } from "./grid";
 
@@ -46,3 +46,5 @@ export function createDefaultLayoutRegistry(): CaseWaveLayoutRegistry {
 
   return registry;
 }
+
+

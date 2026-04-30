@@ -1,4 +1,4 @@
-import { CaseWaveGraph }
+﻿import { CaseWaveGraph }
 from "../packages/core/dist/index.js";
 
 const graph = new CaseWaveGraph({
@@ -46,3 +46,5 @@ if(!graph.getNode("a")){
 console.log(
  "Crash replay OK."
 );
+
+

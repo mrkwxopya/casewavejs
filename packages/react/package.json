@@ -1,5 +1,5 @@
 {
-    "name": "@casewave/react",
+    "name": "@casewavejs/react",
     "version": "0.1.4",
     "description": "React renderer for CaseWave graph engine",
     "author": "mrkwxopya",
@@ -16,12 +16,12 @@
         }
     },
     "peerDependencies": {
+        "@casewavejs/core": "file:",
         "react": ">=18",
-        "react-dom": ">=18",
-        "@casewave/core": "0.1.0"
+        "react-dom": ">=18"
     },
     "dependencies": {
-        "@casewave/core": "0.1.0"
+        "@casewavejs/core": "file:"
     },
     "scripts": {
         "build": "tsup src/index.ts --format esm,cjs --dts --external react --external react-dom",

@@ -1,9 +1,9 @@
-import React from "react";
+﻿import React from "react";
 import { createRoot } from "react-dom/client";
-import { CaseWaveGraph } from "@casewave/core";
-import { CaseWaveProvider, CaseWaveCanvas } from "@casewave/react";
-import { dagLayout } from "@casewave/layout";
-import { caseWaveMidnightTheme } from "@casewave/themes";
+import { CaseWaveGraph } from "@casewavejs/core";
+import { CaseWaveProvider, CaseWaveCanvas } from "@casewavejs/react";
+import { dagLayout } from "@casewavejs/layout";
+import { caseWaveMidnightTheme } from "@casewavejs/themes";
 
 const graph = new CaseWaveGraph({
   allowCycles: true
@@ -51,3 +51,5 @@ function App() {
 }
 
 createRoot(document.getElementById("root")!).render(<App />);
+
+

@@ -1,4 +1,4 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 import path from "node:path";
 
 const roots = [
@@ -15,24 +15,24 @@ const forbidden = [
   {
     from: "packages/core/src",
     patterns: [
-      "@casewave/react",
-      "@casewave/layout",
-      "@casewave/plugins",
-      "@casewave/devtools",
-      "@casewave/collaboration",
-      "@casewave/themes"
+      "@casewavejs/react",
+      "@casewavejs/layout",
+      "@casewavejs/plugins",
+      "@casewavejs/devtools",
+      "@casewavejs/collaboration",
+      "@casewavejs/themes"
     ]
   },
   {
     from: "packages/layout/src",
     patterns: [
-      "@casewave/react"
+      "@casewavejs/react"
     ]
   },
   {
     from: "packages/themes/src",
     patterns: [
-      "@casewave/core"
+      "@casewavejs/core"
     ]
   }
 ];
@@ -74,3 +74,5 @@ for (const root of roots) {
 }
 
 console.log("Import boundary check OK.");
+
+

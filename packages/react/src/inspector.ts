@@ -1,9 +1,9 @@
-import type {
+﻿import type {
   CaseWaveEdge,
   CaseWaveGraphSchema,
   CaseWaveNode,
   CaseWaveSelection
-} from "@casewave/core";
+} from "@casewavejs/core";
 
 export interface CaseWaveInspectorState {
   selectedNodes: CaseWaveNode[];
@@ -34,3 +34,5 @@ export function createInspectorState(
     firstEdge: selectedEdges[0]
   };
 }
+
+

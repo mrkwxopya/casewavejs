@@ -1,8 +1,8 @@
-import type {
+﻿import type {
   CaseWaveEdge,
   CaseWaveGraphSchema,
   CaseWaveNode
-} from "@casewave/core";
+} from "@casewavejs/core";
 
 export interface CaseWaveLayoutPosition {
   x: number;
@@ -36,3 +36,5 @@ export interface CaseWaveLayoutInput {
   edges: CaseWaveEdge[];
   options?: CaseWaveLayoutOptions;
 }
+
+

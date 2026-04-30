@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+﻿import React, { useMemo, useState } from "react";
 import {
   type CaseWaveCommand,
   filterCommands
@@ -90,3 +90,5 @@ export function CaseWaveCommandPalette(props: CaseWaveCommandPaletteProps) {
     </div>
   );
 }
+
+

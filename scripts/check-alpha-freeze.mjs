@@ -1,4 +1,4 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 
 const requiredFiles = [
   "ALPHA_FREEZE.md",
@@ -25,3 +25,5 @@ for (const file of requiredFiles) {
 }
 
 console.log("Alpha freeze file checklist OK.");
+
+

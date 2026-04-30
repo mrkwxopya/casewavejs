@@ -1,7 +1,7 @@
 ﻿# Custom Node Renderer
 
 ```tsx
-import type { CaseWaveNodeRendererMap } from "@casewave/react";
+import type { CaseWaveNodeRendererMap } from "@casewavejs/react";
 
 const nodeRenderers: CaseWaveNodeRendererMap = {
   person: ({ node, selected }) => (
@@ -14,3 +14,5 @@ const nodeRenderers: CaseWaveNodeRendererMap = {
 
 <CaseWaveCanvas nodeRenderers={nodeRenderers} />
 ```
+
+

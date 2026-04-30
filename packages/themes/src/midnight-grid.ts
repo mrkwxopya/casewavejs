@@ -1,0 +1,11 @@
+import type { CaseWaveTheme } from "@casewave/react";
+export const caseWaveMidnightGridTheme: CaseWaveTheme = {
+name:"midnight-grid",canvasBackground:"#050816",gridColor:"rgba(99,102,241,.05)",
+nodeBackground:"#141a33",nodeSelectedBackground:"#4338ca",
+nodeBorder:"1px solid rgba(129,140,248,.16)",nodeSelectedBorder:"2px solid #818cf8",
+nodeText:"#e0e7ff",groupBackground:"rgba(67,56,202,.14)",groupBorder:"1px dashed rgba(129,140,248,.24)",
+edgeStroke:"rgba(129,140,248,.36)",edgeSelectedStroke:"#c7d2fe",edgePreviewStroke:"#c7d2fe",
+handleBackground:"#818cf8",handleBorder:"2px solid #050816",
+panelBackground:"#0f1430",panelBorder:"1px solid rgba(129,140,248,.10)",panelText:"#e0e7ff",
+accent:"#818cf8",danger:"#ef4444",warning:"#f59e0b"
+};

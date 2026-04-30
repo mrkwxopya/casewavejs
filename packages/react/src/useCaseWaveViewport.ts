@@ -1,5 +1,5 @@
-import { useCallback, useState } from "react";
-import type { CaseWaveCamera, CaseWavePosition } from "@casewave/core";
+﻿import { useCallback, useState } from "react";
+import type { CaseWaveCamera, CaseWavePosition } from "@casewavejs/core";
 import { clampZoom } from "./utils";
 
 export interface UseCaseWaveViewportOptions {
@@ -69,3 +69,5 @@ export function useCaseWaveViewport(options: UseCaseWaveViewportOptions = {}) {
     resetCamera
   };
 }
+
+

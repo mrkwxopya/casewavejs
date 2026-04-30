@@ -1,4 +1,4 @@
-import type { CaseWaveEdgeRoutingMode, CaseWavePosition } from "@casewave/core";
+﻿import type { CaseWaveEdgeRoutingMode, CaseWavePosition } from "@casewavejs/core";
 
 export interface CaseWaveRouteOptions {
   mode?: CaseWaveEdgeRoutingMode;
@@ -60,3 +60,5 @@ export function createOrthogonalPath(
     `L ${target.x} ${target.y}`
   ].join(" ");
 }
+
+

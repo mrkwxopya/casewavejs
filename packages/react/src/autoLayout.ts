@@ -1,4 +1,4 @@
-import type { CaseWaveEdge, CaseWaveNode } from "@casewave/core";
+﻿import type { CaseWaveEdge, CaseWaveNode } from "@casewavejs/core";
 
 export interface CaseWaveAutoLayoutOptions {
   startX?: number;
@@ -125,3 +125,5 @@ export function calculateDagLevels(
 
   return levels;
 }
+
+

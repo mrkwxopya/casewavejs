@@ -1,4 +1,4 @@
-import type {
+﻿import type {
   CaseWaveEdge,
   CaseWaveEdgeEndpoint,
   CaseWaveGraphOptions,
@@ -144,3 +144,5 @@ export function validateUniqueEdgeIds(edges: CaseWaveEdge[]): CaseWaveValidation
   result.valid = result.errors.length === 0;
   return result;
 }
+
+

@@ -1,4 +1,4 @@
-import type { CaseWaveGraphSchema } from "./types";
+﻿import type { CaseWaveGraphSchema } from "./types";
 
 export interface CaseWaveMigration {
   from: string;
@@ -55,3 +55,5 @@ export function structuredCloneSchema(
 export function createDefaultMigrationRegistry(): CaseWaveMigrationRegistry {
   return new CaseWaveMigrationRegistry();
 }
+
+

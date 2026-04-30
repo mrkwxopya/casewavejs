@@ -1,4 +1,4 @@
-import type { CaseWaveGraphSchema } from "@casewave/core";
+﻿import type { CaseWaveGraphSchema } from "@casewavejs/core";
 
 export interface CaseWaveValidationIssue {
   id: string;
@@ -88,3 +88,5 @@ export function validateCaseWaveSchema(
 
   return issues;
 }
+
+

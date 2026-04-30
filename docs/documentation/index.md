@@ -7,13 +7,13 @@ It is designed for investigation boards, detective boards, evidence boards, know
 ## Packages
 
 ```txt
-@casewave/core
-@casewave/react
-@casewave/layout
-@casewave/plugins
-@casewave/devtools
-@casewave/collaboration
-@casewave/themes
+@casewavejs/core
+@casewavejs/react
+@casewavejs/layout
+@casewavejs/plugins
+@casewavejs/devtools
+@casewavejs/collaboration
+@casewavejs/themes
 ```
 
 ## Main Concepts
@@ -31,8 +31,8 @@ Theme     = Visual token preset
 ## Quick Start
 
 ```tsx
-import { CaseWaveGraph } from "@casewave/core";
-import { CaseWaveProvider, CaseWaveCanvas } from "@casewave/react";
+import { CaseWaveGraph } from "@casewavejs/core";
+import { CaseWaveProvider, CaseWaveCanvas } from "@casewavejs/react";
 
 const graph = new CaseWaveGraph({
   allowCycles: true
@@ -66,3 +66,5 @@ export default function App() {
   );
 }
 ```
+
+

@@ -1,9 +1,9 @@
-import { jsx as _jsx } from "react/jsx-runtime";
+﻿import { jsx as _jsx } from "react/jsx-runtime";
 import { createRoot } from "react-dom/client";
-import { CaseWaveGraph } from "@casewave/core";
-import { CaseWaveProvider, CaseWaveCanvas } from "@casewave/react";
-import { dagLayout } from "@casewave/layout";
-import { caseWaveMidnightTheme } from "@casewave/themes";
+import { CaseWaveGraph } from "@casewavejs/core";
+import { CaseWaveProvider, CaseWaveCanvas } from "@casewavejs/react";
+import { dagLayout } from "@casewavejs/layout";
+import { caseWaveMidnightTheme } from "@casewavejs/themes";
 const graph = new CaseWaveGraph({
     allowCycles: true
 });
@@ -32,3 +32,5 @@ function App() {
     return (_jsx(CaseWaveProvider, { graph: graph, children: _jsx(CaseWaveCanvas, { width: "100vw", height: "100vh", theme: caseWaveMidnightTheme, minimap: true, grid: true, snapToGrid: true }) }));
 }
 createRoot(document.getElementById("root")).render(_jsx(App, {}));
+
+

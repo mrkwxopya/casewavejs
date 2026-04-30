@@ -1,4 +1,4 @@
-export interface CaseWaveTheme {
+﻿export interface CaseWaveTheme {
   name: string;
 
   canvasBackground: string;
@@ -69,3 +69,5 @@ export function mergeCaseWaveTheme(
     ...(override ?? {})
   };
 }
+
+

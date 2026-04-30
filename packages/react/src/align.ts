@@ -1,4 +1,4 @@
-import type { CaseWaveNode } from "@casewave/core";
+﻿import type { CaseWaveNode } from "@casewavejs/core";
 
 export type CaseWaveAlignMode =
   | "left"
@@ -113,3 +113,5 @@ export function createDistributedNodePositions(
 
   return result;
 }
+
+

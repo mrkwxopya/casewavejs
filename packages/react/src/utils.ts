@@ -1,8 +1,8 @@
-import type {
+﻿import type {
   CaseWaveCamera,
   CaseWavePosition,
   CaseWaveRect
-} from "@casewave/core";
+} from "@casewavejs/core";
 
 export function screenToWorld(
   point: CaseWavePosition,
@@ -51,3 +51,5 @@ export function rectsIntersect(a: CaseWaveRect, b: CaseWaveRect): boolean {
 export function clampZoom(value: number, min = 0.15, max = 3): number {
   return Math.min(max, Math.max(min, value));
 }
+
+

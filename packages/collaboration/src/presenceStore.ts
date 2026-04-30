@@ -1,4 +1,4 @@
-import type {
+﻿import type {
   CaseWaveCollaborationState,
   CaseWavePresenceUpdate,
   CaseWaveUserPresence
@@ -53,3 +53,5 @@ export class CaseWavePresenceStore {
     this.users.clear();
   }
 }
+
+

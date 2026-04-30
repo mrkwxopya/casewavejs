@@ -1,4 +1,4 @@
-import type { CaseWavePlugin } from "@casewave/react";
+﻿import type { CaseWavePlugin } from "@casewavejs/react";
 
 export function createSelectionLoggerPlugin(): CaseWavePlugin {
   return {
@@ -14,3 +14,5 @@ export function createSelectionLoggerPlugin(): CaseWavePlugin {
     }
   };
 }
+
+

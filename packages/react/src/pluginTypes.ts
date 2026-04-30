@@ -1,9 +1,9 @@
-import type {
+﻿import type {
   CaseWaveEdge,
   CaseWaveGraphSchema,
   CaseWaveNode,
   CaseWaveSelection
-} from "@casewave/core";
+} from "@casewavejs/core";
 
 export interface CaseWavePluginContext {
   getSchema: () => CaseWaveGraphSchema;
@@ -31,3 +31,5 @@ export interface CaseWavePlugin {
     context: CaseWavePluginContext
   ) => void;
 }
+
+

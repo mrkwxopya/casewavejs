@@ -1,4 +1,4 @@
-import type { CaseWaveDictionary } from "./types";
+﻿import type { CaseWaveDictionary } from "./types";
 
 export interface CaseWaveRegistryItem {
   type: string;
@@ -74,3 +74,5 @@ export class CaseWaveDefinitionRegistry {
     this.edges.clear();
   }
 }
+
+

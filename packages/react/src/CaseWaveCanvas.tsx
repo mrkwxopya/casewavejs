@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+﻿import React, { useEffect, useMemo, useRef, useState } from "react";
 import type {
   CaseWaveId,
   CaseWaveNode,
@@ -7,7 +7,7 @@ import type {
   CaseWaveRect,
   CaseWaveSelection,
   CaseWaveGraphSchema
-} from "@casewave/core";
+} from "@casewavejs/core";
 import { useCaseWaveGraph } from "./CaseWaveProvider";
 import { useCaseWaveEdges, useCaseWaveNodes } from "./hooks";
 import { normalizeRect, rectsIntersect, screenToWorld } from "./utils";
@@ -1485,6 +1485,8 @@ export function CaseWaveCanvas(props: CaseWaveCanvasProps) {
     </div>
   );
 }
+
+
 
 
 

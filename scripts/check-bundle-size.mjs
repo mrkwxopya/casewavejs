@@ -1,4 +1,4 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 
 const packages = [
   "core",
@@ -32,17 +32,19 @@ for (const name of packages) {
   const sizeKb = Math.round(fs.statSync(file).size / 1024);
 
   results.push({
-    package: `@casewave/${name}`,
+    package: `@casewavejs/${name}`,
     sizeKb,
     limitKb: limitsKb[name]
   });
 
   if (sizeKb > limitsKb[name]) {
     throw new Error(
-      `Bundle size exceeded for @casewave/${name}: ${sizeKb}KB > ${limitsKb[name]}KB`
+      `Bundle size exceeded for @casewavejs/${name}: ${sizeKb}KB > ${limitsKb[name]}KB`
     );
   }
 }
 
 console.table(results);
 console.log("Bundle size audit OK.");
+
+

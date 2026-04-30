@@ -1,4 +1,4 @@
-import type { CaseWaveGraphSchema } from "./types";
+﻿import type { CaseWaveGraphSchema } from "./types";
 import type { CaseWaveMigrationRegistry } from "./migration";
 
 export interface CaseWaveSnapshot {
@@ -84,3 +84,5 @@ export function cloneGraphSchema(
 export function createSnapshotId(): string {
   return `snapshot_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
 }
+
+

@@ -1,4 +1,4 @@
-import type { CaseWaveNode, CaseWavePosition } from "@casewave/core";
+﻿import type { CaseWaveNode, CaseWavePosition } from "@casewavejs/core";
 
 export interface CaseWaveSnapGuide {
   id: string;
@@ -109,3 +109,5 @@ export function smartSnapNodePosition(
     guides
   };
 }
+
+

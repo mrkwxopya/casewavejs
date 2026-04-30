@@ -1,4 +1,4 @@
-import { defineConfig } from "vitepress";
+﻿import { defineConfig } from "vitepress";
 
 export default defineConfig({
   title: "CaseWave",
@@ -44,6 +44,8 @@ export default defineConfig({
             { text: "Custom Node", link: "/examples/custom-node" },
             { text: "Drag Connect", link: "/examples/drag-connect" },
             { text: "Themes", link: "/examples/themes" },
+{ text: "Theme Gallery", link: "/examples/theme-gallery" },
+{ text: "Theme Showcase", link: "/examples/theme-showcase" },
             { text: "Layout", link: "/examples/layout" }
           ]
         }
@@ -67,3 +69,9 @@ export default defineConfig({
     }
   }
 });
+
+
+
+
+
+

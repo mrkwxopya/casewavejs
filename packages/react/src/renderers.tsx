@@ -1,8 +1,8 @@
-import React from "react";
+﻿import React from "react";
 import type {
   CaseWaveEdge,
   CaseWaveNode
-} from "@casewave/core";
+} from "@casewavejs/core";
 import { createEdgePath } from "./routing";
 
 export interface CaseWaveNodeRendererProps<TData = unknown> {
@@ -108,4 +108,6 @@ export function getEdgeRenderer(
 ): CaseWaveEdgeRenderer {
   return renderers?.[edge.type] ?? DefaultCaseWaveEdgeRenderer;
 }
+
+
 

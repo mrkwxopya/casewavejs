@@ -1,4 +1,4 @@
-import type { CaseWavePosition } from "@casewave/core";
+﻿import type { CaseWavePosition } from "@casewavejs/core";
 
 export function snapValue(value: number, gridSize: number): number {
   return Math.round(value / gridSize) * gridSize;
@@ -56,3 +56,5 @@ export function createGridBackgroundPosition(options: {
 
   return `${x}px ${y}px`;
 }
+
+

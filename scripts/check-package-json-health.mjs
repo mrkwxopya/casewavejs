@@ -1,4 +1,4 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 
 const packageFiles = [
   "packages/core/package.json",
@@ -44,3 +44,5 @@ for (const file of packageFiles) {
 }
 
 console.log("Package JSON health check OK.");
+
+

@@ -3,7 +3,7 @@
 Package:
 
 ```bash
-npm install @casewave/plugins
+npm install @casewavejs/plugins
 ```
 
 Plugins extend CaseWave behavior.
@@ -11,7 +11,7 @@ Plugins extend CaseWave behavior.
 ## Logger Plugin
 
 ```ts
-import { createLoggerPlugin } from "@casewave/plugins";
+import { createLoggerPlugin } from "@casewavejs/plugins";
 
 const plugins = [
   createLoggerPlugin({
@@ -56,3 +56,5 @@ context.updateEdge(id, patch);
 context.removeNode(id);
 context.removeEdge(id);
 ```
+
+

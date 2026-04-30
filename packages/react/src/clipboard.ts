@@ -1,10 +1,10 @@
-import type {
+﻿import type {
   CaseWaveEdge,
   CaseWaveGraphSchema,
   CaseWaveId,
   CaseWaveNode,
   CaseWaveSelection
-} from "@casewave/core";
+} from "@casewavejs/core";
 
 export interface CaseWaveClipboardPayload {
   version: string;
@@ -100,3 +100,5 @@ export function duplicateClipboardPayload(
 export function createDuplicateId(id: string): string {
   return `${id}_copy_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`;
 }
+
+

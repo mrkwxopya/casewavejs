@@ -1,4 +1,4 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 
 const files = [
   "package.json",
@@ -29,3 +29,5 @@ for (const file of files) {
 }
 
 console.log("Package name collision check OK.");
+
+

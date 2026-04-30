@@ -1,4 +1,4 @@
-import type {
+﻿import type {
   CaseWaveGraphSchema,
   CaseWaveNode,
   CaseWaveEdge
@@ -67,3 +67,5 @@ void theme;
 void adapter;
 
 console.log("Declaration import smoke OK.");
+
+

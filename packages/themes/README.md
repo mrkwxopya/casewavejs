@@ -1,33 +1,106 @@
-﻿# @casewave/themes
+﻿# @casewavejs/themes
 
-CaseWave themes package.
+51 ready-to-use theme presets and registry utilities for CaseWave.
 
 ## Install
 
-`ash
-npm install @casewave/themes
-``
+```bash
+npm install @casewavejs/themes
+````
 
-## Documentation
+## Basic Usage
 
-[https://mrkwxopya.github.io/casewave/packages/themes](https://mrkwxopya.github.io/casewave/packages/themes)
+```tsx
+import { CaseWaveCanvas } from "@casewavejs/react";
+import { caseWaveDarkTheme } from "@casewavejs/themes";
 
-## Usage
+<CaseWaveCanvas theme={caseWaveDarkTheme} />;
+```
 
-`	s
-import {} from '@casewave/themes'
-`
+## Registry Usage
 
-## Features
+```ts
+import {
+  caseWaveThemeNames,
+  caseWaveThemes,
+  getCaseWaveTheme
+} from "@casewavejs/themes";
 
-* High performance
-* TypeScript support
-* Modular architecture
+const theme = getCaseWaveTheme("murder-wall");
 
-## Repository
+console.log(caseWaveThemeNames);
+console.log(caseWaveThemes.dark);
+```
 
-[https://github.com/mrkwxopya/casewave](https://github.com/mrkwxopya/casewave)
+## Metadata Usage
 
-## License
+```ts
+import {
+  caseWaveThemeMeta,
+  getCaseWaveThemeMeta,
+  getCaseWaveThemesByCategory
+} from "@casewavejs/themes";
 
-MIT
+console.log(caseWaveThemeMeta);
+console.log(getCaseWaveThemeMeta("murder-wall"));
+console.log(getCaseWaveThemesByCategory("premium"));
+```
+
+## Included Themes
+
+```txt
+Dark
+Light
+Midnight
+Cyberpunk
+Blueprint
+Terminal
+Noir
+Evidence Board
+Red String Board
+Minimal
+Police Desk
+Paper Archive
+Glass
+Neo Brutalist
+Windows 95
+Investigation
+Threat Intel
+Dependency Graph
+Forensics
+Mind Map
+Crime Network
+Compact
+Presentation
+Analyst
+Large Graph
+Accessibility
+Focus
+CaseBoard Classic
+Murder Wall
+Cold Case
+Blue Evidence
+Interpol
+SOC Analyst
+Dark Matter
+Matrix
+War Room
+Incident Response
+Conspiracy Board
+Neon Edges
+Sketch Edges
+Evidence Thread
+Wireframe Edges
+Circuit Edges
+Hand Drawn Edges
+Corkboard
+Blueprint Paper
+Graph Paper
+Police Dossier Paper
+Dark Grid Matrix
+Topographic Map
+Evidence Folder Texture
+```
+
+
+

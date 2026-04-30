@@ -1,4 +1,4 @@
-export type CaseWaveChangeType =
+﻿export type CaseWaveChangeType =
   | "node:create"
   | "node:update"
   | "node:delete"
@@ -33,3 +33,5 @@ export function createChangeRecord(
     payload
   };
 }
+
+

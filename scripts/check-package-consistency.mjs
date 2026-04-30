@@ -1,4 +1,4 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 
 const packageFiles = [
   "packages/core/package.json",
@@ -21,7 +21,7 @@ for (const file of packageFiles) {
     const deps = pkg[field] ?? {};
 
     for (const [name, version] of Object.entries(deps)) {
-      if (name.startsWith("@casewave/") && version !== "0.1.0") {
+      if (name.startsWith("@casewavejs/") && version !== "0.1.0") {
         throw new Error(`${pkg.name} ${field}.${name} must be 0.1.0`);
       }
     }
@@ -29,3 +29,5 @@ for (const file of packageFiles) {
 }
 
 console.log("Package dependency consistency OK.");
+
+

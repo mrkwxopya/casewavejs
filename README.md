@@ -1,20 +1,20 @@
-# CaseWave
+﻿# CaseWave
 
 Production-grade TypeScript toolkit for investigation boards, collaborative graph workflows, and interactive cases.
 
 ## Install
 
 ```bash
-npm install @casewave/core
+npm install @casewavejs/core
 ```
 
 ## Packages
 
-- @casewave/core
-- @casewave/react
-- @casewave/layout
-- @casewave/plugins
-- @casewave/themes
+- @casewavejs/core
+- @casewavejs/react
+- @casewavejs/layout
+- @casewavejs/plugins
+- @casewavejs/themes
 
 ## Documentation
 
@@ -23,7 +23,7 @@ https://mrkwxopya.github.io/casewave/
 ## Example
 
 ```ts
-import { createBoard } from '@casewave/core'
+import { createBoard } from '@casewavejs/core'
 ```
 
 ## Roadmap
@@ -34,6 +34,8 @@ import { createBoard } from '@casewave/core'
 - HTML Nodes
 - Workflow Editor
 
-![npm](https://img.shields.io/npm/v/@casewave/core)
-![license](https://img.shields.io/npm/l/@casewave/core)
+![npm](https://img.shields.io/npm/v/@casewavejs/core)
+![license](https://img.shields.io/npm/l/@casewavejs/core)
 ![docs](https://img.shields.io/badge/docs-online-blue)
+
+

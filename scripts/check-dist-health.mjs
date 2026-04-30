@@ -1,4 +1,4 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 
 const packages = [
   "core",
@@ -33,3 +33,5 @@ for (const name of packages) {
 }
 
 console.log("Dist health check OK.");
+
+

@@ -1,4 +1,4 @@
-export interface CaseWaveCommand {
+﻿export interface CaseWaveCommand {
   id: string;
   title: string;
   keywords?: string[];
@@ -21,3 +21,5 @@ export function filterCommands(
     );
   });
 }
+
+

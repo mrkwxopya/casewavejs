@@ -1,4 +1,4 @@
-# CaseWave Alpha Freeze Checklist
+﻿# CaseWave Alpha Freeze Checklist
 
 ## Core
 
@@ -47,13 +47,13 @@
 
 ## Packages
 
-- [x] @casewave/core
-- [x] @casewave/react
-- [x] @casewave/layout
-- [x] @casewave/plugins
-- [x] @casewave/devtools
-- [x] @casewave/collaboration
-- [x] @casewave/themes
+- [x] @casewavejs/core
+- [x] @casewavejs/react
+- [x] @casewavejs/layout
+- [x] @casewavejs/plugins
+- [x] @casewavejs/devtools
+- [x] @casewavejs/collaboration
+- [x] @casewavejs/themes
 
 ## Tests / Checks
 
@@ -79,3 +79,5 @@
 - [ ] Real multiplayer transport
 - [ ] Full docs website
 - [ ] CI / release / npm publish
+
+

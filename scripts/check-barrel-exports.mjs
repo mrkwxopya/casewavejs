@@ -1,4 +1,4 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 
 const barrelFiles = [
   "packages/core/src/index.ts",
@@ -30,3 +30,5 @@ for (const file of barrelFiles) {
 }
 
 console.log("Barrel export duplicate check OK.");
+
+

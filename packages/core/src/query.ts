@@ -1,4 +1,4 @@
-import type {
+﻿import type {
   CaseWaveEdge,
   CaseWaveGraphSchema,
   CaseWaveId,
@@ -183,3 +183,5 @@ export function createNodeAdjacency(
 
   return adjacency;
 }
+
+

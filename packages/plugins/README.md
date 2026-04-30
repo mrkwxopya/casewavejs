@@ -1,11 +1,11 @@
-﻿# @casewave/plugins
+﻿# @casewavejs/plugins
 
 CaseWave plugins package.
 
 ## Install
 
 `ash
-npm install @casewave/plugins
+npm install @casewavejs/plugins
 ``
 
 ## Documentation
@@ -15,7 +15,7 @@ npm install @casewave/plugins
 ## Usage
 
 `	s
-import {} from '@casewave/plugins'
+import {} from '@casewavejs/plugins'
 `
 
 ## Features
@@ -31,3 +31,5 @@ import {} from '@casewave/plugins'
 ## License
 
 MIT
+
+

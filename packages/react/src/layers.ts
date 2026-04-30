@@ -1,4 +1,4 @@
-import type { CaseWaveEdge, CaseWaveNode } from "@casewave/core";
+﻿import type { CaseWaveEdge, CaseWaveNode } from "@casewavejs/core";
 
 export function getNodeLayer(node: CaseWaveNode): number {
   const value = node.metadata?.layer;
@@ -61,3 +61,5 @@ export function moveEdgeToLayer(
     }
   };
 }
+
+

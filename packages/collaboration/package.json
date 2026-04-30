@@ -1,5 +1,5 @@
 {
-    "name": "@casewave/collaboration",
+    "name": "@casewavejs/collaboration",
     "version": "0.1.4",
     "description": "Collaboration primitives for CaseWave",
     "author": "mrkwxopya",
@@ -16,10 +16,11 @@
         }
     },
     "peerDependencies": {
-        "@casewave/core": "0.1.0"
+        "@casewavejs/core": "file:"
     },
     "dependencies": {
-        "@casewave/core": "0.1.0"
+        "@casewavejs/core": "file:",
+        "@casewavejs/react": "file:../react"
     },
     "scripts": {
         "build": "tsup src/index.ts --format esm,cjs --dts",

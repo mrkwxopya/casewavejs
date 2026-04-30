@@ -1,9 +1,9 @@
-import type {
+﻿import type {
   CaseWaveLayoutAdapter,
   CaseWaveLayoutOptions,
   CaseWaveLayoutResult
 } from "./types";
-import type { CaseWaveGraphSchema } from "@casewave/core";
+import type { CaseWaveGraphSchema } from "@casewavejs/core";
 
 export function gridLayout(
   schema: CaseWaveGraphSchema,
@@ -41,3 +41,5 @@ export const gridLayoutAdapter: CaseWaveLayoutAdapter = {
   name: "Grid Layout",
   layout: gridLayout
 };
+
+

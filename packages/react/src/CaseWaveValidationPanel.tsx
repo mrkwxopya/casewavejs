@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import type { CaseWaveValidationIssue } from "./validationPanel";
 
 export interface CaseWaveValidationPanelProps {
@@ -112,3 +112,5 @@ export function CaseWaveValidationPanel(props: CaseWaveValidationPanelProps) {
     </div>
   );
 }
+
+

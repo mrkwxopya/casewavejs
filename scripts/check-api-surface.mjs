@@ -1,4 +1,4 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 
 const checks = [
   {
@@ -53,3 +53,5 @@ for (const check of checks) {
 }
 
 console.log("API surface OK.");
+
+

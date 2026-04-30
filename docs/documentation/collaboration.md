@@ -3,7 +3,7 @@
 Package:
 
 ```bash
-npm install @casewave/collaboration
+npm install @casewavejs/collaboration
 ```
 
 Current collaboration package includes primitives only.
@@ -11,7 +11,7 @@ Current collaboration package includes primitives only.
 ## Presence Store
 
 ```ts
-import { CaseWavePresenceStore } from "@casewave/collaboration";
+import { CaseWavePresenceStore } from "@casewavejs/collaboration";
 
 const presence = new CaseWavePresenceStore(
   "session_1",
@@ -28,3 +28,5 @@ presence.updatePresence({
 ```
 
 Real CRDT collaboration is planned for a later version.
+
+
