@@ -1,9 +1,9 @@
 ﻿import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  title: "CaseWave",
+  title: "CaseWavejs",
   description: "Modular Node-Link Graph Engine for React",
-  base: "/casewave/",
+  base: "/casewavejs/",
 
   themeConfig: {
     logo: "/logo.svg",
@@ -11,7 +11,7 @@ export default defineConfig({
     nav: [
       { text: "Documentation", link: "/documentation/" },
       { text: "Examples", link: "/examples/" },
-      { text: "GitHub", link: "https://github.com/mrkwxopya/casewave" }
+      { text: "GitHub", link: "https://github.com/mrkwxopya/casewavejs" }
     ],
 
     sidebar: {
@@ -55,7 +55,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/mrkwxopya/casewave"
+        link: "https://github.com/mrkwxopya/casewavejs"
       }
     ],
 
