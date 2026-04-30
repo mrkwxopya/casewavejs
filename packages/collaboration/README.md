@@ -4,9 +4,9 @@ CaseWave collaboration package.
 
 ## Install
 
-`ash
+```bash
 npm install @casewavejs/collaboration
-``
+```
 
 ## Documentation
 
@@ -14,15 +14,13 @@ npm install @casewavejs/collaboration
 
 ## Usage
 
-`	s
-import {} from '@casewavejs/collaboration'
-`
+`import {} from '@casewavejs/collaboration'`
 
 ## Features
 
-* High performance
-* TypeScript support
-* Modular architecture
+- High performance
+- TypeScript support
+- Modular architecture
 
 ## Repository
 
@@ -31,5 +29,3 @@ import {} from '@casewavejs/collaboration'
 ## License
 
 MIT
-
-

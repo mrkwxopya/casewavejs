@@ -1,53 +1,56 @@
-{
-    "name": "@casewavejs/collaboration",
-    "version": "0.1.4",
-    "description": "Collaboration primitives for CaseWave",
-    "author": "mrkwxopya",
-    "license": "MIT",
-    "type": "module",
-    "main": "./dist/index.cjs",
-    "module": "./dist/index.js",
-    "types": "./dist/index.d.ts",
-    "exports": {
-        ".": {
-            "types": "./dist/index.d.ts",
-            "import": "./dist/index.js",
-            "require": "./dist/index.cjs"
-        }
-    },
-    "peerDependencies": {
-        "@casewavejs/core": "file:"
-    },
-    "dependencies": {
-        "@casewavejs/core": "file:",
-        "@casewavejs/react": "file:../react"
-    },
-    "scripts": {
-        "build": "tsup src/index.ts --format esm,cjs --dts",
-        "typecheck": "tsc --noEmit",
-        "clean": "node ./scripts/clean.cjs"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/mrkwxopya/casewavejs.git",
-        "directory": "packages/collaboration"
-    },
-    "keywords": [
-        "casewave",
-        "react",
-        "graph",
-        "node-link",
-        "diagram",
-        "knowledge-graph",
-        "typescript"
-    ],
-    "files": [
-        "dist",
-        "README.md"
-    ],
-    "sideEffects": false,
-    "homepage": "https://github.com/mrkwxopya/casewavejs#readme",
-    "bugs": {
-        "url": "https://github.com/mrkwxopya/casewavejs/issues"
-    }
+﻿{
+    "name":  "@casewavejs/collaboration",
+    "version":  "0.2.0",
+    "description":  "Collaboration primitives for CaseWave",
+    "author":  "mrkwxopya",
+    "license":  "MIT",
+    "type":  "module",
+    "main":  "./dist/index.cjs",
+    "module":  "./dist/index.js",
+    "types":  "./dist/index.d.ts",
+    "exports":  {
+                    ".":  {
+                              "types":  "./dist/index.d.ts",
+                              "import":  "./dist/index.js",
+                              "require":  "./dist/index.cjs"
+                          }
+                },
+    "peerDependencies":  {
+                             "@casewavejs/core":  "file:"
+                         },
+    "dependencies":  {
+                         "@casewavejs/core":  "file:",
+                         "@casewavejs/react":  "file:../react"
+                     },
+    "scripts":  {
+                    "build":  "tsup src/index.ts --format esm,cjs --dts",
+                    "typecheck":  "tsc --noEmit",
+                    "clean":  "node ./scripts/clean.cjs"
+                },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/mrkwxopya/casewavejs.git",
+                       "directory":  "packages/collaboration"
+                   },
+    "keywords":  [
+                     "casewave",
+                     "react",
+                     "graph",
+                     "node-link",
+                     "diagram",
+                     "knowledge-graph",
+                     "typescript"
+                 ],
+    "files":  [
+                  "dist",
+                  "README.md"
+              ],
+    "sideEffects":  false,
+    "homepage":  "https://github.com/mrkwxopya/casewavejs#readme",
+    "bugs":  {
+                 "url":  "https://github.com/mrkwxopya/casewavejs/issues"
+             },
+    "publishConfig":  {
+                          "access":  "public"
+                      }
 }
