@@ -1,0 +1,5 @@
+import{_ as e,o as s,c as n,ag as t}from"./chunks/framework.BXHXBLr6.js";const _=JSON.parse('{"title":"Examples","description":"","frontmatter":{},"headers":[],"relativePath":"examples/index.md","filePath":"examples/index.md"}'),p={name:"examples/index.md"};function i(l,a,o,c,r,d){return s(),n("div",null,[...a[0]||(a[0]=[t(`<h1 id="examples" tabindex="-1">Examples <a class="header-anchor" href="#examples" aria-label="Permalink to &quot;Examples&quot;">​</a></h1><p>This section contains practical CaseWave examples.</p><div class="language-txt vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">txt</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>Basic board</span></span>
+<span class="line"><span>Custom node renderer</span></span>
+<span class="line"><span>Drag-to-connect</span></span>
+<span class="line"><span>Themes</span></span>
+<span class="line"><span>Layout</span></span></code></pre></div>`,3)])])}const x=e(p,[["render",i]]);export{_ as __pageData,x as default};
