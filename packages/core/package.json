@@ -1,6 +1,6 @@
 {
     "name": "@casewavejs/core",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "Headless Modular Node-Link Graph Engine",
     "author": "mrkwxopya",
     "license": "MIT",

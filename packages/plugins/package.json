@@ -1,6 +1,6 @@
 {
     "name": "@casewavejs/plugins",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "Plugin utilities and built-in plugins for CaseWave",
     "author": "mrkwxopya",
     "license": "MIT",

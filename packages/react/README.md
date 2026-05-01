@@ -5,11 +5,10 @@
 [![license](https://img.shields.io/npm/l/@casewavejs/react)](https://www.npmjs.com/package/@casewavejs/react)
 
 🔗 GitHub: https://github.com/mrkwxopya/casewavejs  
-📚 Documentation: https://mrkwxopya.github.io/casewavejs/  
+📚 Documentation: https://mrkwxopya.github.io/casewavejs/
 
 ## Install
 
-`ash
+```bash
 npm install @casewavejs/react
-``
-
+```

@@ -1,6 +1,6 @@
 {
     "name": "@casewavejs/collaboration",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "Collaboration primitives for CaseWave",
     "author": "mrkwxopya",
     "license": "MIT",
