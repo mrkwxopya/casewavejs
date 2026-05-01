@@ -1,35 +1,15 @@
 ﻿# @casewavejs/devtools
 
-CaseWave devtools package.
+[![npm](https://img.shields.io/npm/v/@casewavejs/devtools)](https://www.npmjs.com/package/@casewavejs/devtools)
+[![downloads](https://img.shields.io/npm/dm/@casewavejs/devtools)](https://www.npmjs.com/package/@casewavejs/devtools)
+[![license](https://img.shields.io/npm/l/@casewavejs/devtools)](https://www.npmjs.com/package/@casewavejs/devtools)
+
+🔗 GitHub: https://github.com/mrkwxopya/casewavejs  
+📚 Documentation: https://mrkwxopya.github.io/casewavejs/  
 
 ## Install
 
-```bash
+`ash
 npm install @casewavejs/devtools
-```
-
-## Documentation
-
-[https://mrkwxopya.github.io/casewavejs/packages/devtools](https://mrkwxopya.github.io/casewavejs/packages/devtools)
-
-## Usage
-
-`import {} from '@casewavejs/devtools'`
-
-## Features
-
-- High performance
-- TypeScript support
-- Modular architecture
-
-## Repository
-
-[https://github.com/mrkwxopya/casewavejs](https://github.com/mrkwxopya/casewavejs)
-
-## License
-
-MIT
-
-
-
+``
 

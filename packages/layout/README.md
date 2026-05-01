@@ -1,35 +1,15 @@
 ﻿# @casewavejs/layout
 
-CaseWave layout package.
+[![npm](https://img.shields.io/npm/v/@casewavejs/layout)](https://www.npmjs.com/package/@casewavejs/layout)
+[![downloads](https://img.shields.io/npm/dm/@casewavejs/layout)](https://www.npmjs.com/package/@casewavejs/layout)
+[![license](https://img.shields.io/npm/l/@casewavejs/layout)](https://www.npmjs.com/package/@casewavejs/layout)
+
+🔗 GitHub: https://github.com/mrkwxopya/casewavejs  
+📚 Documentation: https://mrkwxopya.github.io/casewavejs/  
 
 ## Install
 
-```bash
+`ash
 npm install @casewavejs/layout
-```
-
-## Documentation
-
-[https://mrkwxopya.github.io/casewavejs/packages/layout](https://mrkwxopya.github.io/casewavejs/packages/layout)
-
-## Usage
-
-`import {} from '@casewavejs/layout'`
-
-## Features
-
-- High performance
-- TypeScript support
-- Modular architecture
-
-## Repository
-
-[https://github.com/mrkwxopya/casewavejs](https://github.com/mrkwxopya/casewavejs)
-
-## License
-
-MIT
-
-
-
+``
 

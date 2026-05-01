@@ -1,35 +1,15 @@
 ﻿# @casewavejs/collaboration
 
-CaseWave collaboration package.
+[![npm](https://img.shields.io/npm/v/@casewavejs/collaboration)](https://www.npmjs.com/package/@casewavejs/collaboration)
+[![downloads](https://img.shields.io/npm/dm/@casewavejs/collaboration)](https://www.npmjs.com/package/@casewavejs/collaboration)
+[![license](https://img.shields.io/npm/l/@casewavejs/collaboration)](https://www.npmjs.com/package/@casewavejs/collaboration)
+
+🔗 GitHub: https://github.com/mrkwxopya/casewavejs  
+📚 Documentation: https://mrkwxopya.github.io/casewavejs/  
 
 ## Install
 
-```bash
+`ash
 npm install @casewavejs/collaboration
-```
-
-## Documentation
-
-[https://mrkwxopya.github.io/casewavejs/packages/collaboration](https://mrkwxopya.github.io/casewavejs/packages/collaboration)
-
-## Usage
-
-`import {} from '@casewavejs/collaboration'`
-
-## Features
-
-- High performance
-- TypeScript support
-- Modular architecture
-
-## Repository
-
-[https://github.com/mrkwxopya/casewavejs](https://github.com/mrkwxopya/casewavejs)
-
-## License
-
-MIT
-
-
-
+``
 

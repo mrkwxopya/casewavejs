@@ -1,35 +1,15 @@
 ﻿# @casewavejs/core
 
-CaseWave core package.
+[![npm](https://img.shields.io/npm/v/@casewavejs/core)](https://www.npmjs.com/package/@casewavejs/core)
+[![downloads](https://img.shields.io/npm/dm/@casewavejs/core)](https://www.npmjs.com/package/@casewavejs/core)
+[![license](https://img.shields.io/npm/l/@casewavejs/core)](https://www.npmjs.com/package/@casewavejs/core)
+
+🔗 GitHub: https://github.com/mrkwxopya/casewavejs  
+📚 Documentation: https://mrkwxopya.github.io/casewavejs/  
 
 ## Install
 
-```bash
+`ash
 npm install @casewavejs/core
-```
-
-## Documentation
-
-[https://mrkwxopya.github.io/casewavejs/packages/core](https://mrkwxopya.github.io/casewavejs/packages/core)
-
-## Usage
-
-`import {} from '@casewavejs/core'`
-
-## Features
-
-- High performance
-- TypeScript support
-- Modular architecture
-
-## Repository
-
-[https://github.com/mrkwxopya/casewavejs](https://github.com/mrkwxopya/casewavejs)
-
-## License
-
-MIT
-
-
-
+``
 
