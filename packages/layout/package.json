@@ -1,6 +1,6 @@
 {
     "name": "@casewavejs/layout",
-    "version": "0.1.4",
+    "version": "0.3.0",
     "description": "Layout engine adapters for CaseWave",
     "author": "mrkwxopya",
     "license": "MIT",
@@ -15,11 +15,8 @@
             "require": "./dist/index.cjs"
         }
     },
-    "peerDependencies": {
-        "@casewavejs/core": "file:"
-    },
     "dependencies": {
-        "@casewavejs/core": "file:"
+        "@casewavejs/core": "^0.3.0"
     },
     "scripts": {
         "build": "tsup src/index.ts --format esm,cjs --dts",
@@ -28,8 +25,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mrkwxopya/casewavejs.git",
-        "directory": "packages/layout"
+        "url": "https://github.com/mrkwxopya/casewavejs.git"
     },
     "keywords": [
         "casewave",
@@ -45,8 +41,11 @@
         "README.md"
     ],
     "sideEffects": false,
-    "homepage": "https://github.com/mrkwxopya/casewavejs#readme",
+    "homepage": "https://mrkwxopya.github.io/casewavejs/",
     "bugs": {
         "url": "https://github.com/mrkwxopya/casewavejs/issues"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }

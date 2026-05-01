@@ -63,7 +63,7 @@ interface CaseWaveTheme{
 # Theme Import
 
 ```ts
-import { themes } from "@casewave/themes"
+import { themes } from "@casewavejs/themes"
 ```
 
 ---
@@ -386,3 +386,6 @@ scalable design system
 # Next
 
 39-theme-catalog-reference.md
+
+
+

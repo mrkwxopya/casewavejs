@@ -69,3 +69,5 @@ void adapter;
 console.log("Declaration import smoke OK.");
 
 
+
+

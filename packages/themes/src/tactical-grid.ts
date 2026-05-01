@@ -13,3 +13,5 @@ export const caseWaveTacticalGridTheme: CaseWaveTheme = {
   accent:"#4ade80",danger:"#ef4444",warning:"#eab308"
 };
 
+
+

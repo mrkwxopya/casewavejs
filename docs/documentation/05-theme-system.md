@@ -452,7 +452,7 @@ Example:
 import {
  caseWaveThemes
 }
-from "@casewave/themes";
+from "@casewavejs/themes";
 ```
 
 ---
@@ -483,7 +483,7 @@ Useful for selectors.
 import {
  getCaseWaveTheme
 }
-from "@casewave/themes";
+from "@casewavejs/themes";
 ```
 
 Usage:
@@ -590,7 +590,7 @@ Start from preset.
 import {
  getCaseWaveTheme
 }
-from "@casewave/themes";
+from "@casewavejs/themes";
 
 const base=
  getCaseWaveTheme(
@@ -895,3 +895,6 @@ Next covers:
 - groups
 - routing
 - graph semantics
+
+
+

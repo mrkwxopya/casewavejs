@@ -31,3 +31,5 @@ export const caseWaveBlueEvidenceTheme: CaseWaveTheme = {
   warning: "#f59e0b"
 };
 
+
+

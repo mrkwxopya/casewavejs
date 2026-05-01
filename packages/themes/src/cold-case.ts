@@ -31,3 +31,5 @@ export const caseWaveColdCaseTheme: CaseWaveTheme = {
   warning: "#f59e0b"
 };
 
+
+

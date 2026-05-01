@@ -31,3 +31,5 @@ export const caseWaveBlueprintPaperTheme: CaseWaveTheme = {
   warning: "#fde68a"
 };
 
+
+

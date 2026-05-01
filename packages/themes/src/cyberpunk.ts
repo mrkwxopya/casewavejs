@@ -31,3 +31,5 @@ export const caseWaveCyberpunkTheme: CaseWaveTheme = {
   warning: "#facc15"
 };
 
+
+

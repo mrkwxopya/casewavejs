@@ -10,3 +10,5 @@ panelBackground:"#120018",panelBorder:"1px solid rgba(168,85,247,.10)",panelText
 accent:"#a855f7",danger:"#ef4444",warning:"#f59e0b"
 };
 
+
+

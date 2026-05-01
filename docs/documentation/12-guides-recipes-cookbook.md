@@ -35,12 +35,12 @@ Anti Patterns
 import {
  CaseWaveGraph
 }
-from "@casewave/core"
+from "@casewavejs/core"
 
 import {
  CaseWaveCanvas
 }
-from "@casewave/react"
+from "@casewavejs/react"
 
 const graph=
 new CaseWaveGraph()
@@ -802,3 +802,6 @@ Covers:
 - plugin system
 
 - performance internals
+
+
+

@@ -31,3 +31,5 @@ export const caseWaveRedactedFileTheme: CaseWaveTheme = {
   warning: "#d97706"
 };
 
+
+

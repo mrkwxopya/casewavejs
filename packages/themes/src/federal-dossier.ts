@@ -13,3 +13,5 @@ export const caseWaveFederalDossierTheme: CaseWaveTheme = {
   accent:"#9a3412",danger:"#b91c1c",warning:"#d97706"
 };
 
+
+

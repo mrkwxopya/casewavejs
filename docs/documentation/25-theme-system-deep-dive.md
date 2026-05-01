@@ -737,9 +737,9 @@ Important in catalog.
 Possible package model:
 
 ```txt
-@casewave/themes-core
-@casewave/themes-ops
-@casewave/themes-retro
+@casewavejs/themes-core
+@casewavejs/themes-ops
+@casewavejs/themes-retro
 ```
 
 Scales well.
@@ -829,3 +829,6 @@ Massive full reference covering:
 - parameters
 
 - return contracts
+
+
+

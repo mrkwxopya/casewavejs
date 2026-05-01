@@ -13,3 +13,5 @@ export const caseWaveWarboardTheme: CaseWaveTheme = {
   accent:"#f59e0b",danger:"#dc2626",warning:"#facc15"
 };
 
+
+

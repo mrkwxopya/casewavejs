@@ -31,3 +31,5 @@ export const caseWaveSocAnalystTheme: CaseWaveTheme = {
   warning: "#f59e0b"
 };
 
+
+

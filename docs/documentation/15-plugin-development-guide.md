@@ -670,7 +670,7 @@ peerDependencies
 Example:
 
 ```json
-"@casewave/core":"^1.0.0"
+"@casewavejs/core":"^1.0.0"
 ```
 
 ---
@@ -854,3 +854,6 @@ Dedicated deep documentation for:
 - catalog generation
 
 - creating custom themes
+
+
+

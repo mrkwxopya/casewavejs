@@ -75,3 +75,6 @@ applied learning
 # Next
 
 100-long-term-evolution-manual.md
+
+
+

@@ -31,3 +31,5 @@ export const caseWaveDigitalForensicsTheme: CaseWaveTheme = {
   warning: "#f59e0b"
 };
 
+
+

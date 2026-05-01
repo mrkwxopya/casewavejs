@@ -31,3 +31,5 @@ export const caseWaveThreatIntelTheme: CaseWaveTheme = {
   warning: "#f59e0b"
 };
 
+
+

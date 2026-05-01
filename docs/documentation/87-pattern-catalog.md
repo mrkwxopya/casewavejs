@@ -172,3 +172,6 @@ shared solutions
 # Next
 
 88-anti-pattern-catalog.md
+
+
+

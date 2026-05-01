@@ -11,7 +11,7 @@ export default defineConfig({
     nav: [
       { text: "Documentation", link: "/documentation/" },
       { text: "Examples", link: "/examples/" },
-      { text: "GitHub", link: "https://github.com/mrkwxopya/casewavejs" }
+      { text: "GitHub", link: "https://github.com/mrkwxopya/casewavejs.gitjs.gitjs.gitjs" }
     ],
 
     sidebar: {
@@ -55,7 +55,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/mrkwxopya/casewavejs"
+        link: "https://github.com/mrkwxopya/casewavejs.gitjs.gitjs.gitjs"
       }
     ],
 
@@ -69,6 +69,9 @@ export default defineConfig({
     }
   }
 });
+
+
+
 
 
 

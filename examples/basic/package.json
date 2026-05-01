@@ -1,4 +1,4 @@
-{
+﻿{
     "name": "casewave-basic-example",
     "private": true,
     "version": "0.1.2",
@@ -26,3 +26,5 @@
         "vite": "^5.4.0"
     }
 }
+
+

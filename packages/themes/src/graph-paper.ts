@@ -31,3 +31,5 @@ export const caseWaveGraphPaperTheme: CaseWaveTheme = {
   warning: "#d97706"
 };
 
+
+

@@ -31,3 +31,5 @@ export const caseWaveMurderWallTheme: CaseWaveTheme = {
   warning: "#d97706"
 };
 
+
+

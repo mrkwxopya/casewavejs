@@ -78,23 +78,23 @@ This is intentional.
 
 | Package | Purpose |
 |---|---|
-@casewave/core | graph engine |
-@casewave/react | React integration |
-@casewave/themes | theme system |
-@casewave/types | shared types |
-@casewave/utils | helpers |
-@casewave/devtools | debugging tools |
+@casewavejs/core | graph engine |
+@casewavejs/react | React integration |
+@casewavejs/themes | theme system |
+@casewavejs/core | shared types |
+@casewavejs/core | helpers |
+@casewavejs/devtools | debugging tools |
 
 ---
 
-# @casewave/core
+# @casewavejs/core
 
 Primary graph engine.
 
 Package:
 
 ```bash
-npm install @casewave/core
+npm install @casewavejs/core
 ```
 
 Purpose:
@@ -124,7 +124,7 @@ import {
  GraphStore,
  GraphSerializer
 }
-from "@casewave/core";
+from "@casewavejs/core";
 ```
 
 ---
@@ -192,14 +192,14 @@ Supports:
 
 ---
 
-# @casewave/react
+# @casewavejs/react
 
 React renderer package.
 
 Install:
 
 ```bash
-npm install @casewave/react
+npm install @casewavejs/react
 ```
 
 Contains:
@@ -220,7 +220,7 @@ import {
  CaseWaveProvider,
  useCaseWave
 }
-from "@casewave/react";
+from "@casewavejs/react";
 ```
 
 ---
@@ -281,14 +281,14 @@ api.addNode(...)
 
 ---
 
-# @casewave/themes
+# @casewavejs/themes
 
 Theme system package.
 
 Install:
 
 ```bash
-npm install @casewave/themes
+npm install @casewavejs/themes
 ```
 
 Contains:
@@ -309,7 +309,7 @@ import {
  caseWaveThemes,
  caseWaveThemeNames
 }
-from "@casewave/themes";
+from "@casewavejs/themes";
 ```
 
 ---
@@ -334,14 +334,14 @@ Only styling system.
 
 ---
 
-# @casewave/types
+# @casewavejs/core
 
 Shared types package.
 
 Install:
 
 ```bash
-npm install @casewave/types
+npm install @casewavejs/core
 ```
 
 Contains:
@@ -361,7 +361,7 @@ import type {
  CaseWaveEdge,
  GraphSnapshot
 }
-from "@casewave/types";
+from "@casewavejs/core";
 ```
 
 ---
@@ -378,14 +378,14 @@ Benefits:
 
 ---
 
-# @casewave/utils
+# @casewavejs/core
 
 Utility package.
 
 Install:
 
 ```bash
-npm install @casewave/utils
+npm install @casewavejs/core
 ```
 
 Contains helpers.
@@ -398,7 +398,7 @@ import {
  deepMerge,
  debounce
 }
-from "@casewave/utils";
+from "@casewavejs/core";
 ```
 
 Examples of categories:
@@ -410,14 +410,14 @@ Examples of categories:
 
 ---
 
-# @casewave/devtools
+# @casewavejs/devtools
 
 Optional tooling package.
 
 Install:
 
 ```bash
-npm install @casewave/devtools
+npm install @casewavejs/devtools
 ```
 
 Contains:
@@ -435,7 +435,7 @@ Contains:
 import {
  GraphInspector
 }
-from "@casewave/devtools";
+from "@casewavejs/devtools";
 ```
 
 Use for:
@@ -456,13 +456,13 @@ Bad:
 
 ```ts
 import randomThing
-from "@casewave/react";
+from "@casewavejs/react";
 ```
 
 when it belongs in:
 
 ```ts
-@casewave/core
+@casewavejs/core
 ```
 
 Use correct package.
@@ -477,7 +477,7 @@ Preferred:
 import {
  CaseWaveGraph
 }
-from "@casewave/core";
+from "@casewavejs/core";
 ```
 
 Not:
@@ -486,7 +486,7 @@ Not:
 import {
  CaseWaveGraph
 }
-from "@casewave/react";
+from "@casewavejs/react";
 ```
 
 Avoid accidental coupling.
@@ -498,9 +498,9 @@ Avoid accidental coupling.
 Minimal stack:
 
 ```txt
-@casewave/core
-@casewave/react
-@casewave/themes
+@casewavejs/core
+@casewavejs/react
+@casewavejs/themes
 ```
 
 ---
@@ -524,17 +524,17 @@ devtools
 import {
  CaseWaveGraph
 }
-from "@casewave/core";
+from "@casewavejs/core";
 
 import {
  CaseWaveCanvas
 }
-from "@casewave/react";
+from "@casewavejs/react";
 
 import {
  getCaseWaveTheme
 }
-from "@casewave/themes";
+from "@casewavejs/themes";
 ```
 
 Three packages.
@@ -550,37 +550,37 @@ If you need...
 Graph engine:
 
 ```txt
-@casewave/core
+@casewavejs/core
 ```
 
 React rendering:
 
 ```txt
-@casewave/react
+@casewavejs/react
 ```
 
 Themes:
 
 ```txt
-@casewave/themes
+@casewavejs/themes
 ```
 
 Types:
 
 ```txt
-@casewave/types
+@casewavejs/core
 ```
 
 Utilities:
 
 ```txt
-@casewave/utils
+@casewavejs/core
 ```
 
 Debugging:
 
 ```txt
-@casewave/devtools
+@casewavejs/devtools
 ```
 
 ---
@@ -723,3 +723,7 @@ Next documentation goes deep into:
 - theme catalog
 - custom themes
 - runtime theme switching
+
+
+
+

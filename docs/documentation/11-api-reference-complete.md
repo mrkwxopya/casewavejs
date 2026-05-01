@@ -28,11 +28,11 @@ Not tutorial docs.
 Covers:
 
 ```txt
-@casewave/core
-@casewave/react
-@casewave/themes
-@casewave/types
-@casewave/utils
+@casewavejs/core
+@casewavejs/react
+@casewavejs/themes
+@casewavejs/core
+@casewavejs/core
 ```
 
 Single API reference.
@@ -51,7 +51,7 @@ import {
  GraphStore,
  GraphSerializer
 }
-from "@casewave/core"
+from "@casewavejs/core"
 ```
 
 ---
@@ -64,7 +64,7 @@ import {
  CaseWaveProvider,
  useCaseWave
 }
-from "@casewave/react"
+from "@casewavejs/react"
 ```
 
 ---
@@ -76,7 +76,7 @@ import {
  getCaseWaveTheme,
  caseWaveThemes
 }
-from "@casewave/themes"
+from "@casewavejs/themes"
 ```
 
 ---
@@ -1026,3 +1026,7 @@ Next covers:
 - investigation board examples
 - production patterns
 - real-world implementations
+
+
+
+

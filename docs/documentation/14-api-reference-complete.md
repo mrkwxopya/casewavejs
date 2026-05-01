@@ -35,7 +35,7 @@ import {
  GraphSerializer,
  createCaseWaveTheme
 }
-from "@casewave/core"
+from "@casewavejs/core"
 ```
 
 All exports documented below.
@@ -1139,3 +1139,6 @@ Plugin authoring:
 - hook system
 
 - extension authoring
+
+
+

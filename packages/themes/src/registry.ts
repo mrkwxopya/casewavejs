@@ -553,3 +553,5 @@ export function getCaseWaveTheme(name: CaseWaveThemeName) {
 export function hasCaseWaveTheme(name: string): name is CaseWaveThemeName {
   return Object.prototype.hasOwnProperty.call(caseWaveThemes, name);
 }
+
+

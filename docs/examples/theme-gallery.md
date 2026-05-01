@@ -1,4 +1,4 @@
-
+﻿
 # Theme Gallery
 
 CaseWave ships with 51 built-in themes.
@@ -11,7 +11,7 @@ import {
   caseWaveThemeNames,
   getCaseWaveTheme,
   type CaseWaveThemeName
-} from "@casewave/themes";
+} from "@casewavejs/themes";
 
 export function ThemeSwitcherExample() {
   const [themeName, setThemeName] = useState<CaseWaveThemeName>("dark");
@@ -47,7 +47,7 @@ export function ThemeSwitcherExample() {
 import {
   caseWaveThemeMeta,
   getCaseWaveTheme
-} from "@casewave/themes";
+} from "@casewavejs/themes";
 
 export function ThemePreviewGrid() {
   return (
@@ -92,4 +92,7 @@ export function ThemePreviewGrid() {
   );
 }
 ```
+
+
+
 

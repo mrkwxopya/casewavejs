@@ -670,7 +670,7 @@ Respect ecosystem.
 Recommended npm package pattern:
 
 ```txt
-@casewave/plugin-*
+@casewavejs/plugin-*
 ```
 
 Consistent ecosystem.
@@ -680,8 +680,8 @@ Consistent ecosystem.
 Examples:
 
 ```txt
-@casewave/plugin-graph-export
-@casewave/plugin-layout-force
+@casewavejs/plugin-graph-export
+@casewavejs/plugin-layout-force
 ```
 
 Clear naming.
@@ -859,3 +859,7 @@ Includes:
 - theme generation
 
 - theming internals
+
+
+
+

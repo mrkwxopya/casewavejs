@@ -31,3 +31,5 @@ export const caseWaveTerminalTheme: CaseWaveTheme = {
   warning: "#eab308"
 };
 
+
+

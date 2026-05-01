@@ -13,3 +13,5 @@ export const caseWaveShadowIntelTheme: CaseWaveTheme = {
   accent:"#a855f7",danger:"#ef4444",warning:"#f59e0b"
 };
 
+
+

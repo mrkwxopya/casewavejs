@@ -31,3 +31,5 @@ export const caseWavePoliceDossierPaperTheme: CaseWaveTheme = {
   warning: "#d97706"
 };
 
+
+

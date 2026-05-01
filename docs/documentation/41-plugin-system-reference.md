@@ -237,7 +237,7 @@ Treat third-party plugins carefully.
 Possible:
 
 ```txt
-@casewave/plugin-*
+@casewavejs/plugin-*
 ```
 
 ---
@@ -287,3 +287,7 @@ ecosystem growth
 # Next
 
 42-command-system-reference.md
+
+
+
+

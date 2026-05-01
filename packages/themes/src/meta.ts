@@ -296,3 +296,5 @@ export function getCaseWaveThemesByCategory(category: CaseWaveThemeCategory) {
 export function getCaseWaveThemeMeta(name: CaseWaveThemeName) {
   return caseWaveThemeMeta.find((theme) => theme.name === name);
 }
+
+

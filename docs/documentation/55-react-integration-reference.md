@@ -24,7 +24,7 @@ Performance
 # Install
 
 ```bash
-npm install @casewave/react
+npm install @casewavejs/react
 ```
 
 ---
@@ -224,3 +224,6 @@ idiomatic integration
 # Next
 
 56-framework-integrations-reference.md
+
+
+

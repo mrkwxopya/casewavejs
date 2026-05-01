@@ -48,7 +48,7 @@ CaseWave helps with:
 
 CaseWave is separated into packages.
 
-### @casewave/core
+### @casewavejs/core
 
 The core package contains graph primitives and non-React logic.
 
@@ -66,7 +66,7 @@ Use this package when you need the graph data model or engine logic.
 
 ---
 
-### @casewave/react
+### @casewavejs/react
 
 The React package contains React components and rendering logic.
 
@@ -83,7 +83,7 @@ Use this package when you want to display or interact with a CaseWave board insi
 
 ---
 
-### @casewave/themes
+### @casewavejs/themes
 
 The themes package contains ready-made visual themes.
 
@@ -115,14 +115,14 @@ A theme affects:
 - How professional or game-like the board feels
 - Whether the UI feels tactical, detective, retro, minimal, cyber, archive, or premium
 
-For this reason, `@casewave/themes` provides a large ready-made theme set instead of forcing every developer to design their own theme from scratch.
+For this reason, `@casewavejs/themes` provides a large ready-made theme set instead of forcing every developer to design their own theme from scratch.
 
 ---
 
 ## Theme Example
 
 ```ts
-import { getCaseWaveTheme } from "@casewave/themes";
+import { getCaseWaveTheme } from "@casewavejs/themes";
 
 const theme = getCaseWaveTheme("war-room");
 ```
@@ -130,8 +130,8 @@ const theme = getCaseWaveTheme("war-room");
 React usage:
 
 ```tsx
-import { CaseWaveCanvas } from "@casewave/react";
-import { getCaseWaveTheme } from "@casewave/themes";
+import { CaseWaveCanvas } from "@casewavejs/react";
+import { getCaseWaveTheme } from "@casewavejs/themes";
 
 export function App() {
   return (
@@ -297,7 +297,7 @@ The theme registry is a generated object containing all available themes.
 Example:
 
 ```ts
-import { caseWaveThemes } from "@casewave/themes";
+import { caseWaveThemes } from "@casewavejs/themes";
 
 console.log(caseWaveThemes["war-room"]);
 ```
@@ -326,15 +326,15 @@ Example:
 If you are new, remember this:
 
 ```txt
-@casewave/core    = graph data and logic
-@casewave/react   = React canvas and UI rendering
-@casewave/themes  = visual theme presets and registry
+@casewavejs/core    = graph data and logic
+@casewavejs/react   = React canvas and UI rendering
+@casewavejs/themes  = visual theme presets and registry
 ```
 
 Most React users start with:
 
 ```bash
-npm install @casewave/core @casewave/react @casewave/themes
+npm install @casewavejs/core @casewavejs/react @casewavejs/themes
 ```
 
 Then use:
@@ -352,3 +352,6 @@ After this page, read:
 ```txt
 02-installation.md
 ```
+
+
+

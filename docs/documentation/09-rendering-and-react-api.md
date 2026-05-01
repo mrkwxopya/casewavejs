@@ -23,7 +23,7 @@ This is the user-facing framework layer.
 Core package:
 
 ```txt
-@casewave/core
+@casewavejs/core
 ```
 
 handles graph logic.
@@ -31,7 +31,7 @@ handles graph logic.
 React package:
 
 ```txt
-@casewave/react
+@casewavejs/react
 ```
 
 renders and interacts with it.
@@ -45,19 +45,19 @@ Separation is intentional.
 Install:
 
 ```bash
-npm install @casewave/react
+npm install @casewavejs/react
 ```
 
 Usually paired with:
 
 ```bash
-npm install @casewave/core
+npm install @casewavejs/core
 ```
 
 Often themes too:
 
 ```bash
-npm install @casewave/themes
+npm install @casewavejs/themes
 ```
 
 ---
@@ -87,7 +87,7 @@ import {
  CaseWaveCanvas,
  useCaseWave
 }
-from "@casewave/react"
+from "@casewavejs/react"
 ```
 
 Primary surface.
@@ -134,7 +134,7 @@ Global graph context.
 import {
  CaseWaveProvider
 }
-from "@casewave/react"
+from "@casewavejs/react"
 
 export default function App(){
 
@@ -683,7 +683,7 @@ import {
  CaseWaveProvider,
  CaseWaveCanvas
 }
-from "@casewave/react"
+from "@casewavejs/react"
 
 function App(){
 
@@ -801,3 +801,6 @@ Next covers:
 - searchable theme docs
 - theme metadata
 - automated gallery docs
+
+
+

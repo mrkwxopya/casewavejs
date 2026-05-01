@@ -1,4 +1,4 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+﻿import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { CaseWaveGraph } from "@casewavejs/core";
@@ -83,3 +83,5 @@ function App() {
                         }) }), _jsxs("div", { style: { fontSize: 13, opacity: 0.82 }, children: [_jsxs("div", { children: ["Category: ", selectedMeta?.category] }), _jsx("div", { children: selectedMeta?.description })] })] }), _jsx(CaseWaveCanvas, { width: "100vw", height: "100vh", theme: selectedTheme, grid: true, snapToGrid: true, minimap: true })] }));
 }
 createRoot(document.getElementById("root")).render(_jsx(App, {}));
+
+

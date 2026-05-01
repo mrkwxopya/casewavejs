@@ -31,3 +31,5 @@ export const caseWaveCaseBoardClassicTheme: CaseWaveTheme = {
   warning: "#d97706"
 };
 
+
+

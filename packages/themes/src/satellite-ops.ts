@@ -13,3 +13,5 @@ export const caseWaveSatelliteOpsTheme: CaseWaveTheme = {
   accent:"#2dd4bf",danger:"#ef4444",warning:"#f59e0b"
 };
 
+
+

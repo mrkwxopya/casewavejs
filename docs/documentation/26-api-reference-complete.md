@@ -89,9 +89,9 @@ Use consistently.
 Example packages:
 
 ```txt
-@casewave/core
-@casewave/themes
-@casewave/plugins
+@casewavejs/core
+@casewavejs/themes
+@casewavejs/plugins
 ```
 
 Document each.
@@ -1029,3 +1029,6 @@ Covers:
 - rationale history
 
 - engineering records
+
+
+

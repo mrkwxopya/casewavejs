@@ -4,32 +4,32 @@ CaseWave layout package.
 
 ## Install
 
-`ash
+```bash
 npm install @casewavejs/layout
-``
+```
 
 ## Documentation
 
-[https://mrkwxopya.github.io/casewave/packages/layout](https://mrkwxopya.github.io/casewave/packages/layout)
+[https://mrkwxopya.github.io/casewavejs/packages/layout](https://mrkwxopya.github.io/casewavejs/packages/layout)
 
 ## Usage
 
-`	s
-import {} from '@casewavejs/layout'
-`
+`import {} from '@casewavejs/layout'`
 
 ## Features
 
-* High performance
-* TypeScript support
-* Modular architecture
+- High performance
+- TypeScript support
+- Modular architecture
 
 ## Repository
 
-[https://github.com/mrkwxopya/casewave](https://github.com/mrkwxopya/casewave)
+[https://github.com/mrkwxopya/casewavejs](https://github.com/mrkwxopya/casewavejs)
 
 ## License
 
 MIT
+
+
 
 

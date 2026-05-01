@@ -13,3 +13,5 @@ export const caseWaveIntelligenceMapTheme: CaseWaveTheme = {
   accent:"#7dd3fc",danger:"#ef4444",warning:"#f59e0b"
 };
 
+
+

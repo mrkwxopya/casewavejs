@@ -65,7 +65,7 @@ Example:
 import {
  caseWaveThemes
 }
-from "@casewave/themes"
+from "@casewavejs/themes"
 ```
 
 ---
@@ -762,3 +762,6 @@ Next becomes exhaustive API reference:
 - every prop
 - every attribute
 - complete technical reference
+
+
+

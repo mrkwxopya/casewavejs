@@ -1,18 +1,18 @@
 ﻿# Theme Showcase
 
-`@casewave/themes` includes 51 built-in CaseWave themes.
+`@casewavejs/themes` includes 51 built-in CaseWave themes.
 
 ## Install
 
 ```bash
-npm install @casewave/themes
+npm install @casewavejs/themes
 ````
 
 ## Basic Usage
 
 ```tsx
-import { CaseWaveCanvas } from "@casewave/react";
-import { caseWaveDarkTheme } from "@casewave/themes";
+import { CaseWaveCanvas } from "@casewavejs/react";
+import { caseWaveDarkTheme } from "@casewavejs/themes";
 
 <CaseWaveCanvas theme={caseWaveDarkTheme} />;
 ```
@@ -24,7 +24,7 @@ import {
   caseWaveThemeNames,
   getCaseWaveTheme,
   type CaseWaveThemeName
-} from "@casewave/themes";
+} from "@casewavejs/themes";
 
 const selectedThemeName: CaseWaveThemeName = "murder-wall";
 const theme = getCaseWaveTheme(selectedThemeName);
@@ -37,12 +37,12 @@ console.log(theme);
 
 ```tsx
 import { useState } from "react";
-import { CaseWaveCanvas } from "@casewave/react";
+import { CaseWaveCanvas } from "@casewavejs/react";
 import {
   caseWaveThemeNames,
   getCaseWaveTheme,
   type CaseWaveThemeName
-} from "@casewave/themes";
+} from "@casewavejs/themes";
 
 export function ThemeSwitcher() {
   const [themeName, setThemeName] = useState<CaseWaveThemeName>("dark");
@@ -79,7 +79,7 @@ import {
   caseWaveThemeMeta,
   getCaseWaveThemeMeta,
   getCaseWaveThemesByCategory
-} from "@casewave/themes";
+} from "@casewavejs/themes";
 
 console.log(caseWaveThemeMeta);
 console.log(getCaseWaveThemeMeta("murder-wall"));
@@ -97,4 +97,7 @@ premium
 edge
 background
 ```
+
+
+
 

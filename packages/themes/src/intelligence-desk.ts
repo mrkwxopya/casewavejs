@@ -31,3 +31,5 @@ export const caseWaveIntelligenceDeskTheme: CaseWaveTheme = {
   warning: "#f59e0b"
 };
 
+
+

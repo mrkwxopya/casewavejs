@@ -31,3 +31,5 @@ export const caseWaveMindMapTheme: CaseWaveTheme = {
   warning: "#f59e0b"
 };
 
+
+

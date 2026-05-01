@@ -4,32 +4,32 @@ CaseWave devtools package.
 
 ## Install
 
-`ash
+```bash
 npm install @casewavejs/devtools
-``
+```
 
 ## Documentation
 
-[https://mrkwxopya.github.io/casewave/packages/devtools](https://mrkwxopya.github.io/casewave/packages/devtools)
+[https://mrkwxopya.github.io/casewavejs/packages/devtools](https://mrkwxopya.github.io/casewavejs/packages/devtools)
 
 ## Usage
 
-`	s
-import {} from '@casewavejs/devtools'
-`
+`import {} from '@casewavejs/devtools'`
 
 ## Features
 
-* High performance
-* TypeScript support
-* Modular architecture
+- High performance
+- TypeScript support
+- Modular architecture
 
 ## Repository
 
-[https://github.com/mrkwxopya/casewave](https://github.com/mrkwxopya/casewave)
+[https://github.com/mrkwxopya/casewavejs](https://github.com/mrkwxopya/casewavejs)
 
 ## License
 
 MIT
+
+
 
 

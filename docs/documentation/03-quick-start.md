@@ -21,8 +21,8 @@ By the end of this guide you will know how to:
 # Smallest Possible Working Example
 
 ```tsx
-import { CaseWaveCanvas } from "@casewave/react";
-import { getCaseWaveTheme } from "@casewave/themes";
+import { CaseWaveCanvas } from "@casewavejs/react";
+import { getCaseWaveTheme } from "@casewavejs/themes";
 
 export default function App() {
  return (
@@ -68,7 +68,7 @@ getCaseWaveTheme("war-room")
 Load a theme:
 
 ```ts
-import { getCaseWaveTheme } from "@casewave/themes";
+import { getCaseWaveTheme } from "@casewavejs/themes";
 
 const theme =
  getCaseWaveTheme("dark");
@@ -116,7 +116,7 @@ getCaseWaveTheme("analyst-desk")
 ```ts
 import {
  caseWaveThemeNames
-} from "@casewave/themes";
+} from "@casewavejs/themes";
 
 console.log(
  caseWaveThemeNames
@@ -142,7 +142,7 @@ archive-blue
 ```ts
 import {
  caseWaveThemeNames
-} from "@casewave/themes";
+} from "@casewavejs/themes";
 
 console.log(
  caseWaveThemeNames.length
@@ -160,7 +160,7 @@ Themes can also be accessed from registry.
 ```ts
 import {
  caseWaveThemes
-} from "@casewave/themes";
+} from "@casewavejs/themes";
 
 const theme =
  caseWaveThemes["war-room"];
@@ -185,7 +185,7 @@ import {
  getCaseWaveTheme,
  type CaseWaveThemeName
 }
-from "@casewave/themes";
+from "@casewavejs/themes";
 
 export default function App() {
 
@@ -240,7 +240,7 @@ Use:
 ```ts
 import {
  hasCaseWaveTheme
-} from "@casewave/themes";
+} from "@casewavejs/themes";
 ```
 
 Example:
@@ -265,7 +265,7 @@ Metadata can be used to build UI selectors.
 ```ts
 import {
  caseWaveThemeMeta
-} from "@casewave/themes";
+} from "@casewavejs/themes";
 
 console.log(
  caseWaveThemeMeta
@@ -291,7 +291,7 @@ Example metadata:
 import {
  caseWaveThemeMeta
 }
-from "@casewave/themes";
+from "@casewavejs/themes";
 
 function ThemePicker(){
 
@@ -324,7 +324,7 @@ Instead of registry lookup:
 import {
  caseWaveDarkTheme
 }
-from "@casewave/themes";
+from "@casewavejs/themes";
 
 const theme =
  caseWaveDarkTheme;
@@ -424,12 +424,12 @@ hasCaseWaveTheme(
 import {
  CaseWaveCanvas
 }
-from "@casewave/react";
+from "@casewavejs/react";
 
 import {
  getCaseWaveTheme
 }
-from "@casewave/themes";
+from "@casewavejs/themes";
 
 export default function App(){
 
@@ -504,3 +504,6 @@ Then:
 ```txt
 05-theme-system.md
 ```
+
+
+

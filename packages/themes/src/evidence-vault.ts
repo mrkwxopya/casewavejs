@@ -31,3 +31,5 @@ export const caseWaveEvidenceVaultTheme: CaseWaveTheme = {
   warning: "#facc15"
 };
 
+
+

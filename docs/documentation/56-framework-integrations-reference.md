@@ -41,7 +41,7 @@ Web Components
 Possible package:
 
 ```bash
-npm install @casewave/vue
+npm install @casewavejs/vue
 ```
 
 ---
@@ -179,3 +179,7 @@ flexibility
 # Next
 
 57-data-modeling-reference.md
+
+
+
+

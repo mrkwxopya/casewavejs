@@ -4,32 +4,36 @@ CaseWave react package.
 
 ## Install
 
-`ash
+```bash
 npm install @casewavejs/react
-``
+```
 
 ## Documentation
 
-[https://mrkwxopya.github.io/casewave/packages/react](https://mrkwxopya.github.io/casewave/packages/react)
+[https://mrkwxopya.github.io/casewavejs/packages/react](https://mrkwxopya.github.io/casewavejs/packages/react)
 
 ## Usage
 
-`	s
-import {} from '@casewavejs/react'
-`
+`import {} from '@casewavejs/react'`
 
 ## Features
 
-* High performance
-* TypeScript support
-* Modular architecture
+- High performance
+- TypeScript support
+- Modular architecture
 
 ## Repository
 
-[https://github.com/mrkwxopya/casewave](https://github.com/mrkwxopya/casewave)
+[https://github.com/mrkwxopya/casewavejs](https://github.com/mrkwxopya/casewavejs)
 
 ## License
 
 MIT
+
+```
+
+```
+
+
 
 

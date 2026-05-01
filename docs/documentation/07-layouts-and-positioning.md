@@ -839,3 +839,6 @@ Next covers:
 - command systems
 - transactions
 - store architecture
+
+
+

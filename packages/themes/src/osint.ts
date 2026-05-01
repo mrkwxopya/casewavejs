@@ -31,3 +31,5 @@ export const caseWaveOSINTTheme: CaseWaveTheme = {
   warning: "#f59e0b"
 };
 
+
+

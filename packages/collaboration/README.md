@@ -10,7 +10,7 @@ npm install @casewavejs/collaboration
 
 ## Documentation
 
-[https://mrkwxopya.github.io/casewave/packages/collaboration](https://mrkwxopya.github.io/casewave/packages/collaboration)
+[https://mrkwxopya.github.io/casewavejs/packages/collaboration](https://mrkwxopya.github.io/casewavejs/packages/collaboration)
 
 ## Usage
 
@@ -24,8 +24,12 @@ npm install @casewavejs/collaboration
 
 ## Repository
 
-[https://github.com/mrkwxopya/casewave](https://github.com/mrkwxopya/casewave)
+[https://github.com/mrkwxopya/casewavejs](https://github.com/mrkwxopya/casewavejs)
 
 ## License
 
 MIT
+
+
+
+

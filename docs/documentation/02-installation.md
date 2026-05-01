@@ -11,7 +11,7 @@ CaseWave is split into separate packages.
 ## Core
 
 ```bash
-npm install @casewave/core
+npm install @casewavejs/core
 ```
 
 Contains:
@@ -29,7 +29,7 @@ Use when you need engine-level graph logic.
 ## React Renderer
 
 ```bash
-npm install @casewave/react
+npm install @casewavejs/react
 ```
 
 Contains:
@@ -46,7 +46,7 @@ Use when you need the visual board editor.
 ## Themes
 
 ```bash
-npm install @casewave/themes
+npm install @casewavejs/themes
 ```
 
 Contains:
@@ -65,17 +65,17 @@ Use when you need visual themes.
 Most users should install all three:
 
 ```bash
-npm install @casewave/core @casewave/react @casewave/themes
+npm install @casewavejs/core @casewavejs/react @casewavejs/themes
 ```
 
 Equivalent:
 
 ```bash
-pnpm add @casewave/core @casewave/react @casewave/themes
+pnpm add @casewavejs/core @casewavejs/react @casewavejs/themes
 ```
 
 ```bash
-yarn add @casewave/core @casewave/react @casewave/themes
+yarn add @casewavejs/core @casewavejs/react @casewavejs/themes
 ```
 
 ---
@@ -89,9 +89,9 @@ Keep package versions aligned.
 Good:
 
 ```txt
-@casewave/core    0.1.x
-@casewave/react   0.1.x
-@casewave/themes  0.1.x
+@casewavejs/core    0.1.x
+@casewavejs/react   0.1.x
+@casewavejs/themes  0.1.x
 ```
 
 Avoid mixing distant versions unless documented.
@@ -143,7 +143,7 @@ TypeScript 5+
 Test imports:
 
 ```ts
-import { getCaseWaveTheme } from "@casewave/themes";
+import { getCaseWaveTheme } from "@casewavejs/themes";
 
 console.log(getCaseWaveTheme("dark"));
 ```
@@ -159,7 +159,7 @@ installation is correct.
 ```ts
 import {
   caseWaveThemeNames
-} from "@casewave/themes";
+} from "@casewavejs/themes";
 
 console.log(caseWaveThemeNames.length);
 ```
@@ -173,7 +173,7 @@ theme count should print.
 # Verify React Renderer
 
 ```tsx
-import { CaseWaveCanvas } from "@casewave/react";
+import { CaseWaveCanvas } from "@casewavejs/react";
 
 export function App() {
   return (
@@ -203,8 +203,8 @@ tsconfig.json
 App.tsx
 
 ```tsx
-import { CaseWaveCanvas } from "@casewave/react";
-import { getCaseWaveTheme } from "@casewave/themes";
+import { CaseWaveCanvas } from "@casewavejs/react";
+import { getCaseWaveTheme } from "@casewavejs/themes";
 
 export default function App() {
  return (
@@ -249,7 +249,7 @@ Then:
 
 ```bash
 npm install
-npm install @casewave/core @casewave/react @casewave/themes
+npm install @casewavejs/core @casewavejs/react @casewavejs/themes
 ```
 
 ---
@@ -265,7 +265,7 @@ npx create-next-app
 Then:
 
 ```bash
-npm install @casewave/core @casewave/react @casewave/themes
+npm install @casewavejs/core @casewavejs/react @casewavejs/themes
 ```
 
 Use inside client component:
@@ -273,7 +273,7 @@ Use inside client component:
 ```tsx
 "use client";
 
-import { CaseWaveCanvas } from "@casewave/react";
+import { CaseWaveCanvas } from "@casewavejs/react";
 ```
 
 ---
@@ -283,7 +283,7 @@ import { CaseWaveCanvas } from "@casewave/react";
 Preferred:
 
 ```ts
-import { getCaseWaveTheme } from "@casewave/themes";
+import { getCaseWaveTheme } from "@casewavejs/themes";
 ```
 
 Not preferred:
@@ -293,7 +293,7 @@ deep internal imports unless documented.
 Avoid:
 
 ```ts
-import something from "@casewave/themes/dist/internal";
+import something from "@casewavejs/themes/dist/internal";
 ```
 
 Use public API only.
@@ -307,7 +307,7 @@ Supported:
 ```ts
 import {
  getCaseWaveTheme
-} from "@casewave/themes";
+} from "@casewavejs/themes";
 ```
 
 ---
@@ -317,7 +317,7 @@ import {
 Supported:
 
 ```js
-const themes = require("@casewave/themes");
+const themes = require("@casewavejs/themes");
 ```
 
 ---
@@ -360,7 +360,7 @@ visual system
 If you only want themes:
 
 ```bash
-npm install @casewave/themes
+npm install @casewavejs/themes
 ```
 
 Usage:
@@ -368,7 +368,7 @@ Usage:
 ```ts
 import {
  getCaseWaveTheme
-} from "@casewave/themes";
+} from "@casewavejs/themes";
 ```
 
 ---
@@ -388,7 +388,7 @@ Good:
 ```ts
 import {
  getCaseWaveTheme
-} from "@casewave/themes";
+} from "@casewavejs/themes";
 ```
 
 ---
@@ -401,7 +401,7 @@ Run:
 import {
  caseWaveThemeNames,
  getCaseWaveTheme
-} from "@casewave/themes";
+} from "@casewavejs/themes";
 
 console.log(caseWaveThemeNames.length);
 
@@ -463,7 +463,7 @@ Check:
 ```ts
 import {
  hasCaseWaveTheme
-} from "@casewave/themes";
+} from "@casewavejs/themes";
 ```
 
 ```ts
@@ -485,3 +485,6 @@ And can now move to:
 ```txt
 03-quick-start.md
 ```
+
+
+

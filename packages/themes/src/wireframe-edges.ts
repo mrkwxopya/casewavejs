@@ -31,3 +31,5 @@ export const caseWaveWireframeEdgesTheme: CaseWaveTheme = {
   warning: "#f59e0b"
 };
 
+
+

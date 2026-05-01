@@ -1,6 +1,6 @@
 {
     "name": "@casewavejs/themes",
-    "version": "0.1.4",
+    "version": "0.3.0",
     "description": "51 ready-to-use theme presets and registry utilities for CaseWave.",
     "author": "mrkwxopya",
     "license": "MIT",
@@ -15,12 +15,9 @@
             "require": "./dist/index.cjs"
         }
     },
-    "peerDependencies": {
-        "@casewavejs/react": "file:"
-    },
     "dependencies": {
-        "@casewavejs/core": "file:../core",
-        "@casewavejs/react": "file:"
+        "@casewavejs/core": "^0.3.0",
+        "@casewavejs/react": "^0.3.0"
     },
     "scripts": {
         "build": "tsup src/index.ts --format esm,cjs --dts",
@@ -29,8 +26,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mrkwxopya/casewavejs.git",
-        "directory": "packages/themes"
+        "url": "https://github.com/mrkwxopya/casewavejs.git"
     },
     "keywords": [
         "casewave",
@@ -48,7 +44,7 @@
         "README.md"
     ],
     "sideEffects": false,
-    "homepage": "https://github.com/mrkwxopya/casewavejs#readme",
+    "homepage": "https://mrkwxopya.github.io/casewavejs/",
     "bugs": {
         "url": "https://github.com/mrkwxopya/casewavejs/issues"
     },
