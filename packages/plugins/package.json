@@ -1,6 +1,6 @@
 {
     "name": "@casewavejs/plugins",
-    "version": "0.3.1",
+    "version": "0.3.4",
     "description": "Plugin utilities and built-in plugins for CaseWave",
     "author": "mrkwxopya",
     "license": "MIT",
@@ -16,8 +16,8 @@
         }
     },
     "dependencies": {
-        "@casewavejs/core": "^0.3.0",
-        "@casewavejs/react": "^0.3.0"
+        "@casewavejs/core": "^0.3.4",
+        "@casewavejs/react": "^0.3.4"
     },
     "scripts": {
         "build": "tsup src/index.ts --format esm,cjs --dts",
